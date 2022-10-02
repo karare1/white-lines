@@ -121,7 +121,7 @@ video{
 #div-classes-2 h2{
     letter-spacing: 0.3rem;
     font-weight:600;
-    font-family: "Oswald","Verdana","sans-serif";
+    font-family: "Oswald","sans-serif";
     text-align: center;
     color:rgba(41, 153, 134);
     margin-bottom: 30px;
@@ -211,7 +211,7 @@ video{
     margin-bottom: 1%;
     text-align: center;
     color:rgba(41, 153, 134);
-    font-family: "Oswald","Verdana","sans-serif";
+    font-family: "Oswald","sans-serif";
     letter-spacing: 2.5px;
 }
 
@@ -263,12 +263,47 @@ video{
     padding:10px;
 }
 
-#programmes-div{
+/* #programmes-div{
     margin-top: 0;
     height: 5px;
+} */
+
+#programmes-div{
+    text-align: center;
+    margin-top: 100px;
+    margin-left:-60px;
 }
 
+#testimonials{
+    width:100%;
+    height: auto;
+    margin-top: 20px; 
+}
 
+#testimonials h3{
+    padding-top: 30px;
+    margin-bottom: 30px;
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: "Oswald","sans-serif";
+    letter-spacing: 2.5px;
+}
+
+.testimonials-p{
+    width: 40%;
+    margin-left: 50px;
+    text-align: justify;
+    padding:20px;
+    border: 2px solid rgba(41, 153, 134);
+    display: inline-block;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+#testimonials-span{
+    color: rgba(41, 153, 134);
+    font-size: 1.4rem;
+}
 
 
 
