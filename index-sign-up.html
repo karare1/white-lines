@@ -25,7 +25,57 @@
             </nav>       
         </header>
 
+        <section id="form-general">
+            <form id="sign-up-form" method="post" action="#">
+            
+                <h2>Create your account</h2>
+                <p class="form-space">Enter your information to help us tailor your classes</p>
+            
+                <label for="email">Email <span class="red"> *</span></label>
+                <input class="data" id="email" name="email-address" type="email" placeholder="name@email.com" aria-label="name@email.com" required>
+           
+                <label for="password">Password <span class="red" > *</span></label>
+                <input class="data" id="password" name="password" type="password" placeholder="At least 8 characters" aria-label="At least 8 characters" minlength="8" required>
+        
+                <label for="first-name">First Name<span class="red"> *</span></label>
+                <input class="data" id="first-name" name="first-name" type="text" placeholder="eg. Mary or Michael" aria-label="eg. Mary or Michael" required>
+            
+                <label for="last-name">Last Name<span class="red"> *</span></label>
+                <input class="data" id="last-name" name="last-name" type="text" placeholder="eg. Smith" aria-label="eg. Smith" required>
 
+                <label for="birthday">Date of birth<span class="red"> *</span></label>
+                <input id="birthday" name="date of birth" type="date" aria-label="DD/MM/YYYY" min="1900-09-01" required>
+            
+            
+                <label for="classes">Select a class</label>
+                <select class="data" id="classes" name="class">
+                    <option value>Select</option>
+                    <option value="small children">Yellow group: Small children 5-7</option>
+                    <option value="juniors">Orange Group: Juniors 8-10</option>
+                    <option value="older juniors">Red Group: Older Juniors 11-13</option>
+                    <option value="teenagers">Green Group: Teenagers 14-17</option>
+                    <option value="adults beginners">Adults 18 and over beginners</option>
+                    <option value="adults intermediate">Adults 18 and over intermediate</option>
+                    <option value="adults advanced">Adults 18 and over advanced</option>
+                    <option value="individual coaching">Individual coaching</option>
+                    <option value="not sure yet">Not sure yet</option>
+                </select>
+            
+
+                <div id="newsletter">
+                    <input id="newsletter-opt" name="newsletter-opt" type="checkbox">
+                    <label for="newsletter-opt"><span id="newsletter-span">I would like to receive newsletters and information about products, services and events by email, tailored to my interests and preferences as described in the Privacy Policy.</span></label>
+                </div>
+                <p id="terms">By creating an account, I confirm I have read and understand the WHITE LINES 
+                    <a href="">Privacy Policy</a> and agree to the WHITE LINES <a href="">Terms and Conditions</a>.
+                </p>
+        
+                <input id="finish" type="submit" value="Finish">
+
+                <p id="form-final"class="form-space">Already have a WHITE LINES account?</p>
+                <a id="log-in" href="#" target="_blank">Sign In</a>
+            </form>
+        </section>
 
 
         <footer> 
