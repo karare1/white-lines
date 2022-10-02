@@ -55,7 +55,7 @@ header{
     position:relative;
 }
   
-  #video-text{
+#video-text{
     color:rgb(255, 255, 255);
     text-transform:uppercase;
     width: 100%;
@@ -70,14 +70,14 @@ header{
     font-family: "Oswald","sans-serif";
 
   }
-  #video-text h1{
+#video-text h1{
     font-size: 350%;
     padding-bottom: 20px;
     font-weight: 400;
     margin-top: 6%;
   }
 
-  #video-text h2{
+#video-text h2{
     font-weight: 400;
     font-size: 2.0rem;
     font-family: "Oswald","sans-serif";
@@ -90,3 +90,61 @@ video{
     width:100%;
     object-fit: fill;
   }
+
+  
+#about-academy{
+    height: 650px;
+    width:100%;
+}
+
+#div-classes-1{
+    width:35%;
+    float:left;
+    padding-left:40px;  
+    margin-top: 3%;
+    margin-left: 30px;
+}
+
+#div-classes-2{
+    width: 45%;
+    float:right;
+    margin-right:90px;
+    margin-left: 0px;
+    padding: 15px 50px 25px 30px;
+    margin-top: 5%;
+    border-radius: 15px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+
+#div-classes-2 h2{
+    letter-spacing: 0.3rem;
+    font-weight:600;
+    font-family: "Oswald","Verdana","sans-serif";
+    text-align: center;
+    color:rgba(41, 153, 134);
+    margin-bottom: 30px;
+}
+
+.paragraph{
+    margin-bottom: 30px;
+}
+.fa-medal{
+    font-size: 1.5rem;
+    color: rgba(41, 153, 134);
+    padding-right: 5px;
+}
+.medal{
+    padding-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
