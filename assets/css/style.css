@@ -305,6 +305,50 @@ video{
     font-size: 1.4rem;
 }
 
+#contact-div{
+    width: 100%;
+    background-color:rgba(3, 63, 38, 0.1); 
+    margin-top:20px;
+    width: 100%;
+    min-height: 320px;
+  }
+  #address{
+    float:left;
+    width: 20%;
+    margin-left:50px;
+    margin-top:50px;
+    text-align: center;
+    margin-right:90px;
+    padding:30px;
+  }
+
+  #opening-times{
+    width: 20%; 
+    float: left;
+    margin:50px 30px 50px 50px;
+    padding:30px 5px 30px 30px;
+    text-align: center;
+    
+}
+#opening-times table{
+    text-align: initial;
+}
+
+ #phone-email{
+    float: right;
+    width: 20%;
+    margin: 50px 50px 50px 70px;
+    padding:30px;
+    text-align: center;
+}
+
+.fa-door-open{
+    text-align: center;
+ }
+
+ table{
+    margin-left: 25px;
+ }
 
 
 
