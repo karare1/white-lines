@@ -139,7 +139,57 @@ video{
     padding-right: 5px;
 }
 
+#offer-section{
+    width:100%;
+    height:420px;
+    background-color:rgba(3, 63, 38, 0.1);
+    padding-top: 20px;
+    margin-top: 20px;
+}
 
+#offer-section h2{
+    text-align: center;
+    font-family: "Oswald","sans-serif";
+    letter-spacing:0.3rem;
+    color: #299986;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+#offer-ul-1{
+    list-style-type: none;
+    padding-top: 50px;
+    display: inline-block;
+    padding-left:8%;
+    width:25%;
+}
+
+#offer-ul-2{
+    list-style-type: none;
+    padding-top: 50px;
+    display: inline-block;
+    margin-left:10%;
+    width: 25%;
+}
+
+.offer-li {
+    padding-top:20px;
+    padding-bottom: 8%;
+    font-size: 1.1rem;
+}
+.offer-span{
+    padding-left: 10px;
+}
+
+#offer-img{
+    margin-left: 4%;
+    margin-bottom: 1%;
+}
+
+.fa-trophy{
+    padding:5px;
+    color: #299986;
+}
 
 
 
