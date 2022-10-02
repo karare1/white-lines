@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    width:100%;
+    font-family: "Lato","sans-serif";
+}
+
+/* Header*/
+
+header{
+    height: 80px;
+    margin-top: 5px;
+    position:sticky;
+}
+
+#logo{
+    margin-top: 5px;
+    padding-bottom: 5px;
+    float: left;
+}
+
+#ul-bar{
+    padding-left: 30px;
+    float: right;
+    margin-top: 30px;
+}
+#ul-bar li a:hover{
+    text-decoration: underline;
+    font-size: 1.2rem;
+    color: #299986;
+}
+
+#ul-bar li{
+    display: inline-block;
+    line-height: 40px;
+    font-size: 1.1rem;
+}
+
+#ul-bar li a{
+    text-decoration: none;
+    color: rgb(67, 107, 109);
+    padding-right: 40px;
+    display: block;
+}
+
+/* Home Page */
+
+#welcome{
+    position:relative;
+}
+  
+  #video-text{
+    color:rgb(255, 255, 255);
+    text-transform:uppercase;
+    width: 100%;
+    height:200px;
+    padding-top: 40px;
+    padding-left:0;
+    top: 100px;
+    left: 0px;
+    position:absolute;
+    text-align: center;
+    text-transform:none;
+    font-family: "Oswald","sans-serif";
+
+  }
+  #video-text h1{
+    font-size: 350%;
+    padding-bottom: 20px;
+    font-weight: 400;
+    margin-top: 6%;
+  }
+
+  #video-text h2{
+    font-weight: 400;
+    font-size: 2.0rem;
+    font-family: "Oswald","sans-serif";
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+  }
+
+video{
+    filter: brightness(80%);
+    width:100%;
+    object-fit: fill;
+  }
