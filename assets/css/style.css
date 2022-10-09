@@ -11,10 +11,10 @@ body{
     font-family: "Lato","sans-serif";
 }
 
-/* Header*/
+/*-------------------------------------------------------- Header*/
 
 header{
-    height: 12vh;
+    overflow: hidden;
     
 }
 
@@ -36,17 +36,17 @@ header{
 
 #ul-bar li{
     display: inline-block;
-    line-height: 40px;
+    line-height: 5%;
     font-size: 1.1rem;
 }
 
 #ul-bar li a{
     text-decoration: none;
     color: rgb(67, 107, 109);
-    padding-right: 40px;
+    padding-right: 2rem;
 }
 
-/* Home Page */
+/*------------------------------------------------------------ Home Page */
 
 #welcome{
     position:relative;
@@ -64,8 +64,8 @@ header{
 
   }
 #video-text h1{
-    font-size: 350%;
-    padding-bottom: 20px;
+    font-size: 3.5vw;
+    padding-bottom: 3%;
     font-weight: 400;
     margin-top: 6%;
   }
@@ -86,17 +86,16 @@ video{
 
   
 #about-academy{
-    height: 100vh;
     width:100%;
+    display: flex;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 
 #div-classes-1{
-    width:45%;
-    float:left;
-    margin-top: 3%;
-    margin-bottom: 3%;
+    width:50%;
     text-align: center;
-    border-radius: 2%;
+    padding:3%;
 }
 
 #div-classes-1 img{
@@ -104,12 +103,9 @@ video{
 }
 
 #div-classes-2{
-    width: 40%;
-    float:right;
-    margin-right:10%;
-    margin-top: 5%;
+    width: 50%;
     text-align: justify;
-    margin-bottom: 3%;
+    padding:5%;
 }
 
 
@@ -119,7 +115,7 @@ video{
     font-family: "Oswald","sans-serif";
     text-align: center;
     color:rgba(41, 153, 134);
-    margin-bottom: 30px;
+    margin-bottom: 3%;
 }
 
 .paragraph{
@@ -131,15 +127,15 @@ video{
     padding-right: 5px;
 }
 .medal{
-    padding-right: 5px;
+    padding-right: 1%;
 }
 
 #offer-section{
     width:100%;
-    height:63vh;
+    height:100%;
     background-color:rgba(3, 63, 38, 0.1);
-    padding-top: 20px;
-    margin-top: 20px;
+    padding-top: 3%;
+    margin-top: 3%;
 }
 
 #offer-section h2{
@@ -150,47 +146,61 @@ video{
     font-size: 1.5rem;
     font-weight: 800;
 }
-
-#offer-ul-1{
-    list-style-type: none;
-    padding-top: 50px;
-    display: inline-block;
-    padding-left:8%;
-    width:25%;
+#offer-div-main{
+    display:flex;
+    margin-top: 3%;
 }
 
-#offer-ul-2{
-    list-style-type: none;
-    padding-top: 50px;
-    display: inline-block;
-    margin-left:10%;
-    width: 25%;
-}
+#offer-div-1{
+    width:33%;
+    text-align: center;
+  }
 
-.offer-li {
-    padding-top:20px;
-    padding-bottom: 8%;
+  #offer-div-1 ul{
+    display: inline-block;
+    text-align: left;
+    list-style-type: none;
     font-size: 1.1rem;
-}
-.offer-span{
-    padding-left: 10px;
-}
+  }
 
-#offer-img{
-    margin-left: 4%;
-    margin-bottom: 1%;
-   
-}
+  #offer-div-1 ul li:not(:last-child){
+    margin-bottom: 20%;
+  }
 
-.fa-trophy{
+  #offer-div-3 ul{
+    display: inline-block;
+    text-align: left;
+    list-style-type: none;
+    font-size: 1.1rem;
+  }
+
+ #offer-div-3 ul li:not(:last-child){
+    margin-bottom: 20%;
+  }
+
+#offer-div-2{
+    width:34%;
+    display: flex;
+    margin: auto 0;
+    text-align: center;
+  }
+  #offer-div-2 img{
+    width: 60%;
+    box-sizing: border-box;
+  }
+
+  #offer-div-3{
+    width:33%;
+    text-align: center;
+  }
+
+  .fa-trophy{
     padding:5px;
     color: #299986;
 }
 
 #academy-programmes{
     width:100%;
-    height: 1500px;
-    
 }
 
 .programmes-img{
@@ -213,13 +223,13 @@ video{
 
 .color-programmes{
     width:30%;
-    min-height: 600px;
     border-radius: 5px;
     display: inline-block;
     margin-right:1.5%;
     margin-left: 1.5%;
     border: 1px solid rgba(41, 153, 134);
     margin-top:2.5%; 
+    vertical-align:top;
 }
 
 .color-programmes p{
@@ -295,6 +305,7 @@ video{
     margin-bottom: 1%;
     margin-top:1%;
     border-radius: 5px;
+    vertical-align:top;
 }
 
 #testimonials-span{
@@ -307,31 +318,37 @@ video{
     background-color:rgba(3, 63, 38, 0.1); 
     margin-top: 1%;
     height:50vh;
+    display: flex;
   }
+
   #address{
-    float:left;
-    width: 20%;
-    margin-left:5%;
-    margin-top:6%;
+    width:33%;
     text-align: center;
-    padding-bottom: 2%;
+    padding-top:6%;
   }
 
   #opening-times{
-    width: 20%; 
-    float: left;
-    margin:5% 0 0 16%;
+    width:34%; 
     text-align: center;
-    padding-bottom: 2%;
+    padding-top:4%;
+}
+#hours{
+    display:flex;
+    justify-content: center;
+}
+
+table{
+    align-self: center;
+    text-align: initial;
 }
 
  #phone-email{
-    float: right;
-    width: 20%;
-    margin: 6% 5% 0 0;
+    width:33%;
     text-align: center;
-    padding-bottom: 2%;
+    padding-top:6%;
 }
+
+/* -----------------------------------------------Footer */
 
  #footer{
     width:100%;
@@ -340,18 +357,23 @@ video{
 }
 footer #footer-links a{
     color: rgb(67, 107, 109);
-    font-size: 1.7rem;
-    padding-right: 10%;
+    font-size: 1.5rem;
 }
+
+.link{
+    padding-right:5%;
+}
+
 #footer-links{
-    width:30%;
+    width:40%;
     margin-top:0.5%;
     float:left;
     margin-left: 2%;
+    text-align: left;
     
 }
 #grandslams{
-    width:30%;
+    width:40%;
     float:right;
     margin-top:0.5%;
     text-align: right;
@@ -369,12 +391,14 @@ footer p{
 }
 
 .grandslam1, .grandslam2, .grandslam3, .grandslam4{ 
-    margin-right:4%;
-    width:10%;
+    width:8%;
 }
 
+.grandslam4{
+    padding-right: 2%;
+}
 
-/* Gallery Page */
+/* ---------------------------------------------------Gallery Page */
 
 #gallery{
     clear:both;
@@ -389,40 +413,38 @@ footer p{
 }
 
 
-/* Sign Up Page */
+/* ------------------------------------------------------Sign Up Page */
 
 #form-general{
     background-image: url('/assets/images/img.41.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 970px;
     background-attachment: fixed;
     position: relative;
   }
 
 #sign-up-form{
     margin-top: 3%;
-    margin-bottom: 3%;
-    width: 40%;
-    height: 87%;
+    width: 35%;
+    height: auto;
     position: absolute;
     right: 5%;
-    padding-left: 8%;
-    border-radius: 10px;
+    border-radius: 3%;
     background-color:rgba(195, 228, 236, 0.5);
-    padding-top: 3%;
+    padding:5%;
+    overflow: hidden;
   }
 
 .data{
-    width: 80%;
+    width: 97%;
     border: solid double #f2eded;
-    height: 35px;
+    height: 2.2rem;
     background: transparent;
     display: block;
-    margin-bottom: 10px;
-    margin-right: 20px;
-    padding-left: 3px;
+    margin-bottom: 2%;
+    padding-left: 2%;
   }
 
   .red{
@@ -430,10 +452,8 @@ footer p{
   }
 
 #newsletter{
-    margin-top: 30px;
-    margin-bottom: 10px;
-    width:80%;
-    margin-right: 20px;
+    margin-top:5%;
+    width:100%;
 }
 #newsletter-span{
  text-align: justify;
@@ -442,19 +462,17 @@ footer p{
 
 #terms{
     font-size: 0.8rem;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    width:80%;
-    margin-right: 20px;
+    margin-top: 6%;
+    width:100%;
 }
 #terms a{
     color: red;
 }
 
 #finish{
-    margin-top: 20px;
-    width: 85%;
-    height: 35px;
+    margin-top: 5%;
+    width: 100%;
+    height: 3rem;
     background-color: rgba(41, 153, 134);
     font-size: 1.2rem;
     color:rgb(255, 255, 255);
@@ -462,19 +480,17 @@ footer p{
     border-radius: 5px;
 }
 .finish:hover{
-    font-size:1.1rem;
+    font: size 1.3em;
 }
 
 #birthday{
-    width: 80%;
+    width: 97%;
     border: solid double #f3ecec;
-    height: 35px;
+    height: 2.2rem;
     background: transparent;
     display: block;
-    margin-top:5px;
-    margin-bottom: 10px;
-    margin-right: 20px;
-    padding-left: 3px;
+    margin-bottom: 2%;
+   padding-left: 2%;
 }
 .form-space{
    margin-top: 3%;
@@ -482,27 +498,100 @@ footer p{
 }
 
 #classes{
-    width: 82%;
+    width: 100%;
     border: 2px solid black;
-    height: 40px; 
+    height: 2.2rem; 
 }
 
 #newsletter span{
-    padding-left: 10px;
+    padding-left: 2%;
 }
 #form-final{
-    padding-left: 20%;
+    text-align: center;
 }
 #log-in{
     font-size: 1.2rem;
-    padding-left: 37%;
     color:rgba(41, 153, 134);
     font-weight: bolder;
 }
+#log-in-div{
+    text-align: center;
+}
 
-/* _____________________________________________________________________________________________________________ */
+/* __________________________________________________________________media queries */
 
 
+@media screen and (max-width: 1200px){
+
+    .color-programmes{
+        width:30%;
+        margin-left:1.4%;
+        margin-right:1.4%;
+    }
+}
+
+@media screen and (max-width: 943px){
+    #ul-bar{
+        margin-bottom: 2%;
+    }
+    
+    #about-academy{
+        width:100%;
+    }
+    #sign-up-form{
+        margin-top:5%;
+    }
+    #div-classes-1{
+        width:50%;
+        padding-top:12%;
+        
+    }
+    #div-classes-1 img{
+        width:100%;
+    }
+    #div-classes-2{
+        width:50%;
+    }
+    #offer-section{
+        display:block;
+    }
+    #offer-div-2 img{
+        width:100%;
+        padding:0;
+    }
+
+    #offer-div-1{
+        width:40%;
+    }
+    #offer-div-3{
+        width:40%;
+    }
+    #offer-div-2{
+        width:20%;
+        vertical-align:bottom;
+        margin: auto 0;
+    }
+
+    .offer-li{
+        font-size: 1rem;
+    }
+    #academy-programmes{
+        height:initial;
+    }
+    
+    .color-programmes{
+        width:46%;
+    }
+
+    .testimonials-p{
+        width:39%;
+        vertical-align:top;
+    }
+
+    #sign-up-form{
+        width:42%;
+    }
+}
 @media screen and (max-width: 700px){
 
     body{
@@ -510,81 +599,138 @@ footer p{
     }
     
     #ul-bar li a{
-    padding:0;
+    padding:0.7rem;
     margin:0;
     font-size:initial;
     }
-    #video-text h1, h2{
-        font-size: initial;
+    video{
+        margin-top:2%;
+    }
+    #video-text h1 {
+        margin-top:0;
+        font-size: 1rem;
     }
     #video-text h2{
-        font: initial;
-        letter-spacing: normal;
+        font-size: 1rem;
+        letter-spacing:normal;
     }
     #about-academy{
-        padding:0;
-        margin:0;
-        height: fit-content;
+        width:100%;
+        display:block;
+        padding: 0;
+        padding-bottom:5%;
     }
     #div-classes-1{
-        text-align: center;
         width:100%;
+        margin:0;
+        padding-left: 0;
+        padding-right:0;
+        padding-top: 2%;
     }
     
     #div-classes-1 img{
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
      width: 50%;
-     margin-top: 10%;
-     margin-bottom:10%;
     }
     
     #div-classes-2{
-        display: block;
-        float:none;
-        width:80%;
-        text-align: justify;
-        padding-left:10%;
-        padding-right:10%;
-        clear: both;
+        width:100%;
+        margin: 0;
+        padding:0;
     }
+    
+    #div-classes-2 p{
+        padding-left:8%;
+        padding-right: 8%;
+    }
+    
+    #div-classes-2 h2{
+        font-size: 1.2rem;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+    
     #offer-section{
         height:initial;
     }
-    #offer-ul-1, #offer-ul-2{
+    
+    #offer-section h2{
+        font-size: 1.2rem;
+    }
+    #offer-div-1{
+        padding-top:3%;
+    }
+    
+    #offer-div-3{
+        padding-bottom:10%;
+    }
+    
+    #offer-div-1, #offer-div-2, #offer-div-3{
         width:100%;
     }
+    #offer-div-2 img{
+        width:80%;
+        padding:15%;
+    
+    }
+    #offer-div-2 {
+        text-align: center;
+    }
+    #offer-div-main{
+        display: block;
+    }
+    #offer-div-3 ul li:not(:last-child){
+        margin-bottom: 10%;
+    }
+    #offer-div-1 ul li:not(:last-child){
+        margin-bottom: 10%;
+    }
+    
     #academy-programmes{
         height:initial;
         width:auto;
     }
+    
+    #academy-programmes-h2{
+        width:100%;
+        font-size: 1.2rem;
+        letter-spacing: 0.3rem;
+    }
     .color-programmes{
-        width:96%;
+        width:90%;
+        margin-left: 4.5%;
+        margin-right: 4.5%;
+    }
+    #programmes-link-join{
+        width:60%;
+        margin-top:5%;
     }
     
     .testimonials-p {
-     width:90%;   
+     width:80%;   
+     padding-left:5%;
+     padding-right: 5%;
+     margin-left:4%;
+     margin-right:4%;
     }
+    
     #contact-div{
         height:initial;
         overflow: hidden;
+        display: block;
+        padding-bottom:5%;
+        margin-top:5%;
+        margin-bottom: 5%;
     }
     
     #address{
         width:100%;
-        margin:0;
     }
     #opening-times{
         width:100%;
-        margin:0;
     }
-    table{
-        margin-left: 20%;
-    }
+
     #phone-email{
         width:100%;
-        margin:0;
     }
     
     footer{
@@ -613,7 +759,9 @@ footer p{
     #sign-up-form{
         width:83%;
         height:initial;
+        right:3%;
     }
     }
+    
     
     
