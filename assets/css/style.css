@@ -61,8 +61,8 @@ header{
     text-align: center;
     text-transform:none;
     font-family: "Oswald","sans-serif";
-
   }
+
 #video-text h1{
     font-size: 3.5vw;
     padding-bottom: 3%;
@@ -599,10 +599,17 @@ footer p{
     }
     
     #ul-bar li a{
-    padding:0.7rem;
+    padding:0.5rem;
     margin:0;
     font-size:initial;
     }
+
+    #ul-bar li a:hover{
+        text-decoration:none;
+        font-size:initial;
+        color: #299986;
+    }
+   
     video{
         margin-top:2%;
     }
