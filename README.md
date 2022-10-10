@@ -1,14 +1,10 @@
+![Logo](assets/images/logo13.png)
 # WHITE LINES Tennis Academy
 
-White Lines is a website which aim is to attract people of all ages and tennis abilities in Penarh and Cardiff area to pick up a tennis racquet and join the academy. Its hopes to adrress the parents to sign up their children for tennis lessons as well as adults who are just thinking of starting playing tennis as complete begginers or those who want to improve their tenis game. 
+White Lines is a website which aim is to attract people of all ages and tennis abilities in Penarh and Cardiff area to pick up a tennis racquet and join the academy. Its hopes to adrress the parents to enroll their children for tennis lessons as well as adults who are just thinking of starting playing tennis as complete begginers or those who want to improve their tenis game. 
 
 The website will be useful for aspiring tennis participants to find all information about the academy: 
 what the tennis academy has to offer, what is its concept of culture, what tennis programmes they can sign up for and the reason why they should choose the White Lines. 
-
-
-<!-- In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
-
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club.  -->
 
 <!-- ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png) -->
 
@@ -23,8 +19,6 @@ It shows pictures of the academy to present the venue and the sporting environme
 - ### Sign up 
 This page encourages people interested in taking up tennis lessons to sign up to get more information and receive a tailored plan.  
 
-<!-- In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things. -->
-
 ### Existing Features
 
 - __Navigation Bar__
@@ -32,49 +26,35 @@ This page encourages people interested in taking up tennis lessons to sign up to
     - Navigation bar includes links to Home page, Gallery and Sign Up page. It is identical, positioned at the top of each page, for easy navigation. This intuitive layout contributes to the user experience and allows users to access the information they want as quickly as possible.
     - Placing the navigation bar at the top of each page allows users to navigate from page to page without having to use the back button if they want to go back to the previous page.  
 
-  <!-- - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.  -->
-
 ![Nav Bar](media/nav-bar.png)
 
 - __The landing video__
 
   - The landing includes a video of the tennis academy showing the venue's tennis courts from the bird's perspective. 
-  The aim of this section is to grab users attention experience the place atmosphere. 
-  - Text overlay has a welcome message with an encouraging slogan to attract the user create a user's positive experience. 
-
-![Landing video](media/landing-video.png)
+  The aim of this section is to grab users attention and to make them experience the atmosphere of the place. 
+  - Text overlay has a welcome message with an encouraging slogan to attract the user and create a user's positive experience. 
+<!-- ![Landing video](media/landing-video.png) -->
 
 - __About Academy__
 
-
-
-
-  <!-- - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
-
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png) -->
+The About Academy section introduces the academy to the potential customer. It contains general information about who is the academy for, where the potential customer can find the venue and what is its main goal.
+<!-- ![About Academy](media/about-academy.png) -->
 
 - __Offer section__
 
+The offer section is very important part of the website. It shows what the White Lines provide for tennis enthusists and what make them better than their competitors.It is the selling part of the website and its purpose is to convince potential customers to sign up for lessons by presenting the academy as professional place that has a lot to offer. 
+<!-- ![Offer Section](media/offer-section.png) -->
 
-
-  <!-- - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
-
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png) -->
 
 - __Tennis Programmes__ 
-
-  <!-- - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
-
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png) -->
+This section inroduces various programmes that the academy runs. It gives the users an initial idea about who is the programme for and what is it focused on. It gives the user the oportunity to specify what programme is the most suitable from them. Each programme box has a button 'Learn more' which is supposed to thake them to the site where they can get more specific information about that particular programme yet  this is the feature to implement. 
+<!-- ![Tennis Programmes](media/tennis-programmes.png) -->
 
 - __Testimonials__
 
-  - The most importat part of the page, it hopes to pursuade people to choose the White Lines Academy based on the excellet reviews from current or previous customers. 
-
+  The most important part of the website. The reason for this is testimonials give potential customers that one final push to sign up for the service. They are the most effective type of content to put on a website to get more sales.
+  The testimonials have been specifically designed to show the good side the academy by saying positive things about the tennis place, lessons and coaches. Excellent comments about from the current or previous customers will reassure people browsing the website that this is a great place to learn tennis skills. 
+<!-- ![Tennis Programmes](media/tennis-programmes.png) -->
 
 - __Contact Details__
 

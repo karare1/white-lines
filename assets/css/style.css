@@ -88,8 +88,8 @@ video{
 #about-academy{
     width:100%;
     display: flex;
-    margin-top: 4%;
-    margin-bottom: 4%;
+    margin-top: 2%;
+    margin-bottom:1.5%;
 }
 
 #div-classes-1{
@@ -136,7 +136,7 @@ video{
     background-color:rgba(3, 63, 38, 0.1);
     padding-top: 3%;
     padding-bottom: 3%;
-    margin-top: 3%;
+    /* margin-top: 3%; */
 }
 
 #offer-section h2{
@@ -319,8 +319,9 @@ video{
     width: 100%;
     background-color:rgba(3, 63, 38, 0.1); 
     margin-top: 1%;
-    height:50vh;
+    /* height:50vh; */
     display: flex;
+    padding-bottom: 3%;
   }
 
   #address{
