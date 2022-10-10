@@ -21,12 +21,14 @@ This page encourages people interested in taking up tennis lessons to sign up to
 
 ### Existing Features
 
-- __Navigation Bar__
+- __Header__
 
+    Header consists of White Lines academy logo and navigation bar.
+    Logo is a clickable picture that takes a user to the home page. 
     - Navigation bar includes links to Home page, Gallery and Sign Up page. It is identical, positioned at the top of each page, for easy navigation. This intuitive layout contributes to the user experience and allows users to access the information they want as quickly as possible.
     - Placing the navigation bar at the top of each page allows users to navigate from page to page without having to use the back button if they want to go back to the previous page.  
 
-![Nav Bar](media/nav-bar.png)
+![Header](media/nav-bar.png)
 
 - __The landing video__
 
@@ -48,18 +50,17 @@ The offer section is very important part of the website. It shows what the White
 
 - __Tennis Programmes__ 
 This section inroduces various programmes that the academy runs. It gives the users an initial idea about who is the programme for and what is it focused on. It gives the user the oportunity to specify what programme is the most suitable from them. Each programme box has a button 'Learn more' which is supposed to thake them to the site where they can get more specific information about that particular programme yet  this is the feature to implement. 
+Underneath the tennis programmes is JOIN US TODAY button to prompt the user to buy tennis lesson. The link will direct the user to the SIGN UP page to register and join the academy. 
 <!-- ![Tennis Programmes](media/tennis-programmes.png) -->
 
 - __Testimonials__
 
   The most important part of the website. The reason for this is testimonials give potential customers that one final push to sign up for the service. They are the most effective type of content to put on a website to get more sales.
-  The testimonials have been specifically designed to show the good side the academy by saying positive things about the tennis place, lessons and coaches. Excellent comments about from the current or previous customers will reassure people browsing the website that this is a great place to learn tennis skills. 
+  The testimonials have been specifically designed to show the good side of the academy by saying positive things about the tennis place, lessons and coaches. Excellent comments from the current or previous customers will reassure people browsing the website that this is a great place to learn tennis skills. 
 <!-- ![Tennis Programmes](media/tennis-programmes.png) -->
 
 - __Contact Details__
-
-
-
+Contact details section - here users can find information about the location, opening hours, email address and phone number. Contact details are easily to find; they are well structured and have a background color to underline the importance of this section. 
 
 - __The Footer__
 
