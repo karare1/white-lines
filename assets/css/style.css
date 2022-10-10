@@ -419,7 +419,7 @@ footer p{
 /* ------------------------------------------------------Sign Up Page */
 
 #form-general{
-    background-image: url('/assets/images/img.41.png');
+    background-image: url('assets/images/img.41.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
