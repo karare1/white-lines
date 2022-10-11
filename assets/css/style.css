@@ -89,7 +89,6 @@ header{
   }
 
 video{
-    /* filter: brightness(80%); */
     width:100%;
     object-fit: fill;
   }
@@ -241,6 +240,7 @@ video{
     border: 1px solid rgba(41, 153, 134);
     margin-top:2.5%; 
     vertical-align:top;
+    min-height:590px;
 }
 
 .color-programmes p{
@@ -318,6 +318,7 @@ video{
     margin-top:1%;
     border-radius: 5px;
     vertical-align:top;
+    min-height:50px;
 }
 
 #testimonials-span{
@@ -598,6 +599,7 @@ footer p{
     .testimonials-p{
         width:39%;
         vertical-align:top;
+        min-height: 170px;
     }
     #gallery{
         column-count: 2;
