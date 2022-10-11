@@ -23,10 +23,11 @@ This page encourages people interested in taking up tennis lessons to sign up to
 
 - __Header__
 
-    Header consists of White Lines academy logo and navigation bar.
+  - Header consists of White Lines academy logo and navigation bar.
     Logo is a clickable picture that takes a user to the home page. 
-    - Navigation bar includes links to Home page, Gallery and Sign Up page. It is identical, positioned at the top of each page, for easy navigation. This intuitive layout contributes to the user experience and allows users to access the information they want as quickly as possible.
-    - Placing the navigation bar at the top of each page allows users to navigate from page to page without having to use the back button if they want to go back to the previous page.  
+  - Navigation bar includes links to Home page, Gallery and Sign Up page. It is identical, positioned at the top 
+    of each page, for easy navigation. This intuitive layout contributes to the user experience and allows users to access the information they want as quickly as possible.
+    Placing the navigation bar at the top of each page allows users to navigate from page to page without having to use the back button if they want to go back to the previous page.  
 
 ![Header](media/nav-bar.png)
 
@@ -39,60 +40,68 @@ This page encourages people interested in taking up tennis lessons to sign up to
 
 - __About Academy__
 
-The About Academy section introduces the academy to the potential customer. It contains general information about who is the academy for, where the potential customer can find the venue and what is its main goal.
+  - The About Academy section introduces the academy to the potential customer. It contains general information
+    about who is the academy for, where the potential customer can find the venue and what is its main goal.
 <!-- ![About Academy](media/about-academy.png) -->
 
 - __Offer section__
 
-The offer section is very important part of the website. It shows what the White Lines provide for tennis enthusists and what make them better than their competitors.It is the selling part of the website and its purpose is to convince potential customers to sign up for lessons by presenting the academy as professional place that has a lot to offer. 
+  - The offer section is very important part of the website. It shows what the White Lines provide for tennis enthusists and what make them better than their competitors.It is the selling part of the website and its purpose is to convince potential customers to sign up for lessons by presenting the academy as professional place that has a lot to offer. 
 <!-- ![Offer Section](media/offer-section.png) -->
 
 
 - __Tennis Programmes__ 
-This section inroduces various programmes that the academy runs. It gives the users an initial idea about who is the programme for and what is it focused on. It gives the user the oportunity to specify what programme is the most suitable from them. Each programme box has a button 'Learn more' which is supposed to thake them to the site where they can get more specific information about that particular programme yet  this is the feature to implement. 
-Underneath the tennis programmes is JOIN US TODAY button to prompt the user to buy tennis lesson. The link will direct the user to the SIGN UP page to register and join the academy. 
+  - This section inroduces various programmes that the academy runs. It gives the users an initial idea about who is the programme for and what is it focused on. It gives the user the oportunity to specify what programme is the most suitable from them. Each programme box has a button 'Learn more' which is supposed to thake them to the site where they can get more specific information about that particular programme yet  this is the feature to implement. 
+  Underneath the tennis programmes is JOIN US TODAY button to prompt the user to buy tennis lesson. The link will direct the user to the SIGN UP page to register and join the academy. 
 <!-- ![Tennis Programmes](media/tennis-programmes.png) -->
 
 - __Testimonials__
 
-  The most important part of the website. The reason for this is testimonials give potential customers that one final push to sign up for the service. They are the most effective type of content to put on a website to get more sales.
+  - The most important part of the website. The reason for this is testimonials give potential customers that one final push to sign up for the service. They are the most effective type of content to put on a website to get more sales.
   The testimonials have been specifically designed to show the good side of the academy by saying positive things about the tennis place, lessons and coaches. Excellent comments from the current or previous customers will reassure people browsing the website that this is a great place to learn tennis skills. 
 <!-- ![Tennis Programmes](media/tennis-programmes.png) -->
 
 - __Contact Details__
-Contact details section - here users can find information about the location, opening hours, email address and phone number. Contact details are easily to find; they are well structured and have a background color to underline the importance of this section. 
+  - Contact details section - here users can find information about the location, opening hours, email address and phone number. Contact details are easily to find; they are well structured and have a background color to underline the importance of the section. 
 
 - __The Footer__
+  - The footer section includes links to social media sites for White Lines. The links open in a new tab for easy 
+    navigation. Social media integration gives users more ways to engage and interact with the academy. 
+    They also create more opportunities to promote academy's service and build a bigger customer base.
+    This is valuable for the user as they can get up-to-date information about academy activities, special events or various aticles about tennis.  
+  - The footer also includes links to tennis grandslams. It allows tennis enthusists to follow the best and 
+    improve their motivation.
+    The same as the header, the footer remains the same whichever webpage a visitor navigates to.
+    This intuitive layout contributes to the users experience. 
 
-<!-- - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
-
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png) -->
+<!-- ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png) --> -->
 
 
 - __Gallery__
-
-  <!-- - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.--> 
-
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png) -->
+    The gallery provides the user with supporting images to see what the live in academy looks like. The aim of this section is to draw the visitors attention and enhance the website’s user experience. This section is valuable to the users as they can identify what tennis experience they can get and learn about the tennis place and its atmosphere.  
+    
+<!-- ![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png) --> -->
 
 - __The Sign Up Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page will allow the user to get signed up to White Lines to start their tennis journey. The user will be able to create a White Lines Tennis academy account and specify what programme they are intrested in. The user will also be asked to submit their full name, email address and date of birth. 
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+<!-- ![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png) -->
 
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+<!-- For some/all of your features, you may choose to reference the specific project files that implement them.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+In addition, you may also use this section to discuss plans for additional features to be implemented in the future: -->
 
 ### Features Left to Implement
 
-- Creating additional pages for each programme to which users will be taken if they click on Find out button in the programme boxes. They will contain specific information about each programme e.g what the programme consists from, timetable, prices, etc.
 
-- Another feature idea
+- Create additional pages for each programme to provide visitors with extra information i.e. what the programme 
+  includes, disctiption of extra activities, timetable and prices.
+  When the user click on 'Learn More' button in the programme block they will be taken to the specific page. 
+
+- Another feature idea is to create a page with news about academy that will be regularly updated with special events,
+  activites, students' achievments and other interesting ideas. 
 
 ## Testing 
 
@@ -118,14 +127,40 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+The site was deployed to GitHub pages.
+The steps to deploy are as follows: 
+1. Create a repository in GitHub 
+<br>
+![Deploy-1](media/deploy-1.png)
+2. Create the entry file for a site. GitHub Pages will look for an index.html as the entry file for the site
+<br>
+3. Git push all contents from Integrated Development Environment (IDE) into GitHub 
+<br>
+3. On GitHub page, click on the site's repository on the left sidebar or alternatively click on the avatar icon and then 'Your repositories'
+![Deploy-2](media/deploy-2.png) &nbsp; &nbsp; &nbsp; &nbsp; ![Deploy-3](media/deploy-3.png)
+<br>
+4. In the repository, under the repository name, click Settings.
+![Deploy-4](media/deploy-4.png)
+<br>
+5. In the "Code and automation" section of the left sidebar, click on Pages.
+<br>
+![Deploy-5](media/deploy-5.PNG)
+6. From the source section drop-down menu, select 'Deploy from a Branch'
+   From the branch section drop-down menu, select 'main' and 'root' and then click on Save button.
+   <br>
+![Deploy-6](media/deploy-6.PNG)
+7. The link to the site will be automatically created. 
+   To see the published site, under "GitHub Pages", click the site's URL.
+![Deploy-7](media/deploy-7.PNG)
+
+<!-- This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html  -->
 
 
 ## Credits 
