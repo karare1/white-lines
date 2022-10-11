@@ -66,7 +66,11 @@ This page encourages people interested in taking up tennis lessons to sign up to
 - __Tennis Programmes__ 
   - This section inroduces various programmes that the academy runs. It gives the users an initial idea about who is the programme for and what is it focused on. It gives the user the oportunity to specify what programme is the most suitable from them. Each programme box has a button 'Learn more' which is supposed to thake them to the site where they can get more specific information about that particular programme yet  this is the feature to implement. 
   Underneath the tennis programmes is JOIN US TODAY button to prompt the user to buy tennis lesson. The link will direct the user to the SIGN UP page to register and join the academy. 
-<!-- ![Tennis Programmes](media/tennis-programmes.png) -->
+ <br><br>
+    <p align="center">
+      <img src="media/tennis-programmes.png">
+    </p>
+  <br>
 
 - __Testimonials__
 
@@ -118,13 +122,13 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+<!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+If this section grows too long, you may want to split it off into a separate file and link to it from here. -->
 
 
 ### Validator Testing 
@@ -147,31 +151,55 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 ## Deployment
 
 Deployment To GitHub Pages:
-<br>
+
+  <br>
+
 1. Create a repository in GitHub 
-<br>
-![Deploy-1](media/deploy-1.png)
+ <br>
+
+  ![Deploy-1](media/deploy-1.png)
+
+ <br>
+
 2. Create the entry file for a site. GitHub Pages will look for an index.html as the entry file for the site
 <br>
 3. Git push all contents from Integrated Development Environment (IDE) into GitHub 
 <br>
+
 3. On GitHub page, click on the site's repository on the left sidebar or alternatively click on the avatar icon and then 'Your repositories'
+<br>
+
 ![Deploy-2](media/deploy-2.png) &nbsp; &nbsp; &nbsp; &nbsp; ![Deploy-3](media/deploy-3.png)
+
 <br>
+
 4. In the repository, under the repository name (e.g. karare1/white-lines), click Settings.
-![Deploy-4](media/deploy-4.png)
 <br>
+
+![Deploy-4](media/deploy-4.png)
+
+<br>
+
 5. In the "Code and automation" section of the left sidebar, click on Pages.
 <br>
+
 ![Deploy-5](media/deploy-5.PNG)
+
 6. From the source section drop-down menu, select 'Deploy from a Branch'
    From the branch section drop-down menu, select 'main' and 'root' and then click on Save button.
    <br>
+
 ![Deploy-6](media/deploy-6.PNG)
+
+  <br>
+
 7. The link to the site will be automatically created. 
    To see the published site, under "GitHub Pages", click the site's URL.
+   <br>
+
 ![Deploy-7](media/deploy-7.PNG)
 
+  <br>
 The live link can be found here: https://karare1.github.io/white-lines/
 
 
@@ -240,3 +268,6 @@ Below you will find a couple of extra tips that may be helpful when completing y
   - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
 
 Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+
+[def]: media/deploy-1.png
+[def2]: media/deploy-2.png
