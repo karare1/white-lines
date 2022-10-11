@@ -1,7 +1,7 @@
 ![Logo](assets/images/logo13.png)
 # WHITE LINES Tennis Academy
 
-White Lines is a website which aim is to attract people of all ages and tennis abilities in Penarh and Cardiff area to pick up a tennis racquet and join the academy. Its hopes to adrress the parents to enroll their children for tennis lessons as well as adults who are just thinking of starting playing tennis as complete begginers or those who want to improve their tenis game. 
+White Lines is a website which aim is to attract people of all ages and tennis abilities in Penarh and Cardiff area to pick up a tennis racquet and join the academy. It hopes to adrress the parents to enroll their children for tennis lessons as well as adults who are just thinking of starting playing tennis as complete begginers or those who want to improve their tenis game. 
 
 The website will be useful for aspiring tennis participants to find all information about the academy: 
 what the tennis academy has to offer, what is its concept of culture, what tennis programmes they can sign up for and the reason why they should choose the White Lines. 
@@ -28,27 +28,40 @@ This page encourages people interested in taking up tennis lessons to sign up to
   - Navigation bar includes links to Home page, Gallery and Sign Up page. It is identical, positioned at the top 
     of each page, for easy navigation. This intuitive layout contributes to the user experience and allows users to access the information they want as quickly as possible.
     Placing the navigation bar at the top of each page allows users to navigate from page to page without having to use the back button if they want to go back to the previous page.  
-
-![Header](media/nav-bar.png)
+    <p align="center">
+      <img src="media/nav-bar.png">
+    </p>
 
 - __The landing video__
 
   - The landing includes a video of the tennis academy showing the venue's tennis courts from the bird's perspective. 
   The aim of this section is to grab users attention and to make them experience the atmosphere of the place. 
   - Text overlay has a welcome message with an encouraging slogan to attract the user and create a user's positive experience. 
-<!-- ![Landing video](media/landing-video.png) -->
+  <br><br>
+    <p align="center">
+      <img src="media/landing-video.png">
+    </p>
+  <br>
 
 - __About Academy__
 
   - The About Academy section introduces the academy to the potential customer. It contains general information
     about who is the academy for, where the potential customer can find the venue and what is its main goal.
-<!-- ![About Academy](media/about-academy.png) -->
-
+    <br><br>
+    <p align="center">
+      <img src="media/about-academy1.png">
+    </p>
+    <!-- <p align="center" width="100%">
+     <img width="60%" src="media/about-academy1.png">
+    </p> -->
 - __Offer section__
 
-  - The offer section is very important part of the website. It shows what the White Lines provide for tennis enthusists and what make them better than their competitors.It is the selling part of the website and its purpose is to convince potential customers to sign up for lessons by presenting the academy as professional place that has a lot to offer. 
-<!-- ![Offer Section](media/offer-section.png) -->
-
+  - The offer section is very important part of the website. It shows what the White Lines provide for tennis enthusists and what make them better than their competitors.It is the selling part of the website and its purpose is to convince potential customers to sign up for lessons by presenting the academy as professional place that has a lot to offer.
+  <br><br>
+    <p align="center">
+      <img src="media/offer-section.png">
+    </p>
+  <br>
 
 - __Tennis Programmes__ 
   - This section inroduces various programmes that the academy runs. It gives the users an initial idea about who is the programme for and what is it focused on. It gives the user the oportunity to specify what programme is the most suitable from them. Each programme box has a button 'Learn more' which is supposed to thake them to the site where they can get more specific information about that particular programme yet  this is the feature to implement. 
@@ -74,13 +87,13 @@ This page encourages people interested in taking up tennis lessons to sign up to
     The same as the header, the footer remains the same whichever webpage a visitor navigates to.
     This intuitive layout contributes to the users experience. 
 
-<!-- ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png) --> -->
+<!-- ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png) --> 
 
 
 - __Gallery__
     The gallery provides the user with supporting images to see what the live in academy looks like. The aim of this section is to draw the visitors attention and enhance the website’s user experience. This section is valuable to the users as they can identify what tennis experience they can get and learn about the tennis place and its atmosphere.  
     
-<!-- ![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png) --> -->
+<!-- ![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png) -->
 
 - __The Sign Up Page__
 
@@ -97,11 +110,11 @@ In addition, you may also use this section to discuss plans for additional featu
 
 
 - Create additional pages for each programme to provide visitors with extra information i.e. what the programme 
-  includes, disctiption of extra activities, timetable and prices.
+  includes, description of extra activities, timetables and prices.
   When the user click on 'Learn More' button in the programme block they will be taken to the specific page. 
 
-- Another feature idea is to create a page with news about academy that will be regularly updated with special events,
-  activites, students' achievments and other interesting ideas. 
+- Another feature idea is to create a page with news about the academy that will be regularly updated with special
+  events, activites, students' achievments and other interesting ideas. 
 
 ## Testing 
 
@@ -117,9 +130,15 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkarare1.github.io%2Fwhite-lines%2F)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - Two syntax errors were found when passing through the official Jigsaw validator - a comma used instead of a semi-colon and font:size instead of font-size - both errors have been corrected. [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkarare1.github.io%2Fwhite-lines%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+- Lighthouse report: 
+  <br>
+  ![Lighthouse report](media/lighthouse1.png)
+
+
 
 ### Unfixed Bugs
 
@@ -127,8 +146,8 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 ## Deployment
 
-The site was deployed to GitHub pages.
-The steps to deploy are as follows: 
+Deployment To GitHub Pages:
+<br>
 1. Create a repository in GitHub 
 <br>
 ![Deploy-1](media/deploy-1.png)
@@ -139,7 +158,7 @@ The steps to deploy are as follows:
 3. On GitHub page, click on the site's repository on the left sidebar or alternatively click on the avatar icon and then 'Your repositories'
 ![Deploy-2](media/deploy-2.png) &nbsp; &nbsp; &nbsp; &nbsp; ![Deploy-3](media/deploy-3.png)
 <br>
-4. In the repository, under the repository name, click Settings.
+4. In the repository, under the repository name (e.g. karare1/white-lines), click Settings.
 ![Deploy-4](media/deploy-4.png)
 <br>
 5. In the "Code and automation" section of the left sidebar, click on Pages.
@@ -153,14 +172,7 @@ The steps to deploy are as follows:
    To see the published site, under "GitHub Pages", click the site's URL.
 ![Deploy-7](media/deploy-7.PNG)
 
-<!-- This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html  -->
+The live link can be found here: https://karare1.github.io/white-lines/
 
 
 ## Credits 
