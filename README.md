@@ -1,62 +1,61 @@
 ![Logo](assets/images/logo13.png)
 # WHITE LINES Tennis Academy
 
-White Lines is a website which aim is to attract people of all ages and tennis abilities in Penarh and Cardiff area to pick up a tennis racquet and join the academy. It hopes to adrress the parents to enroll their children for tennis lessons as well as adults who are just thinking of starting playing tennis as complete begginers or those who want to improve their tenis game. 
+The website White Lines was developed with the goal of attracting people of all ages and tennis abilities in the Penarth and Cardiff areas to pick up a tennis racquet and join our academy. 
+It hopes to engage parents to enroll their children in tennis lessons as well as adults who are just thinking of starting to play tennis as complete beginners or those who are looking for ways to improve their game.
 
-The website will be useful for aspiring tennis participants to find all information about the academy: 
-what the tennis academy has to offer, what is its concept of culture, what tennis programmes they can sign up for and the reason why they should choose the White Lines. 
+This website will be helpful to aspiring tennis players in order to find out all the information on the academy: what the White Lines has to offer, what its culture is like, what tennis programmes are offered, and why they should sign up.
 
 <!-- ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png) -->
 
 ## Features 
 
-White Lines website consists of 3 webpages: 
+There are three webpages on the White Lines website: 
 
-- ### Home Page
-It includes the introduction and the main information about the academy.
-- ### Gallery
-It shows pictures of the academy to present the venue and the sporting environment to tennis enthusiasts and potential cusomers. 
-- ### Sign up 
-This page encourages people interested in taking up tennis lessons to sign up to get more information and receive a tailored plan.  
+  - ### Home Page
+  This page provides an introduction and basic information about the academy. 
+  - ### Gallery
+  It displays pictures of the academy and the sporting environment to attract tennis enthusiasts and potential customers. 
+  - ### Sign up 
+  The purpose of this page is to encourage people interested in taking up tennis lessons to sign up to receive more information and a personalised lesson plan.  
+
 
 ### Existing Features
 
 - __Header__
-
-  - Header consists of White Lines academy logo and navigation bar.
-    Logo is a clickable picture that takes a user to the home page. 
-  - Navigation bar includes links to Home page, Gallery and Sign Up page. It is identical, positioned at the top 
-    of each page, for easy navigation. This intuitive layout contributes to the user experience and allows users to access the information they want as quickly as possible.
-    Placing the navigation bar at the top of each page allows users to navigate from page to page without having to use the back button if they want to go back to the previous page.  
+    White Lines Academy's logo and navigation bar are featured in the header.
+  - A logo links a user to the home page when clicked.
+  - Navigation bar includes links to Home page, Gallery and Sign Up page. It is identical, positioned 
+    at the top of each page, for easy navigation. 
+    This intuitive layout enhances the user experience and gives users access to the information they want as quickly as possible.
+    Placing the navigation bar at the top of each page allows users to navigate from page to page 
+    without having to use the back button if they wish to return to the previous page.
     <p align="center">
       <img src="media/nav-bar.png">
     </p>
 
 - __The landing video__
-
-  - The landing includes a video of the tennis academy showing the venue's tennis courts from the bird's perspective. 
-  The aim of this section is to grab users attention and to make them experience the atmosphere of the place. 
-  - Text overlay has a welcome message with an encouraging slogan to attract the user and create a user's positive experience. 
-  <br><br>
+  - The landing includes a video from the tennis academy showing the site's tennis courts from a 
+    bird's-eye perspective. 
+    The purpose of this section is to capture the attention of users and let them discover the atmosphere of the place.
+  - The overlay contains a welcome message with an encouraging slogan to appeal to the user and create a
+     positive user experience.
+    <br><br>
     <p align="center">
       <img src="media/landing-video.png">
     </p>
-  <br>
+    <br>
 
 - __About Academy__
-
-  - The About Academy section introduces the academy to the potential customer. It contains general information
-    about who is the academy for, where the potential customer can find the venue and what is its main goal.
+  - The About Academy section presents the academy to the website visitor. It contains general
+    information on who the academy is for, where the prospective customer can find the place and main objectives of the academy.
     <br><br>
     <p align="center">
       <img src="media/about-academy1.png">
     </p>
-    <!-- <p align="center" width="100%">
-     <img width="60%" src="media/about-academy1.png">
-    </p> -->
-- __Offer section__
 
-  - The offer section is very important part of the website. It shows what the White Lines provide for tennis enthusists and what make them better than their competitors.It is the selling part of the website and its purpose is to convince potential customers to sign up for lessons by presenting the academy as professional place that has a lot to offer.
+- __Offer section__
+  The offer section is an important part of the site. It shows what White Lines provide to tennis buffs and what makes them better than their competitors.It is a selling part of the website and its goal is to convince prospective clients to register for courses by presenting the academy as a professional venue that has much to offer.
   <br><br>
     <p align="center">
       <img src="media/offer-section.png">
@@ -64,44 +63,54 @@ This page encourages people interested in taking up tennis lessons to sign up to
   <br>
 
 - __Tennis Programmes__ 
-  - This section inroduces various programmes that the academy runs. It gives the users an initial idea about who is the programme for and what is it focused on. It gives the user the oportunity to specify what programme is the most suitable from them. Each programme box has a button 'Learn more' which is supposed to thake them to the site where they can get more specific information about that particular programme yet  this is the feature to implement. 
-  Underneath the tennis programmes is JOIN US TODAY button to prompt the user to buy tennis lesson. The link will direct the user to the SIGN UP page to register and join the academy. 
- <br><br>
+  - This section presents the tennis courses of the academy. It gives users an early sense of who are
+     the programmes for and what they focuse on. It provides the user with the opportunity to specify which program is most suitable for them. Each program box has a 'Learn More' button that is supposed to bring visitors to the website where they can get more specific information about that particular program.
+  - Below the tennis programs is the JOIN US TODAY button to encourage the user to purchase a tennis
+    class. This link will bring the user to the Sign Up page to register for the Academy.
+    <br><br>
     <p align="center">
       <img src="media/tennis-programmes.png">
     </p>
-  <br>
+    <br>
 
 - __Testimonials__
+  - The most important part of the website. The reason for this is testimonials give potential
+    customers that one final push to sign up for the service. They are the most effective type of content to put on a website to get more sales.
+  - The testimonials have been specifically designed to show the good side of the academy by saying 
+    positive things on the tennis place, lessons and coaches. Great feedback from current or former customers will reassure those browsing the website that this is a great place to learn tennis skills.
 
-  - The most important part of the website. The reason for this is testimonials give potential customers that one final push to sign up for the service. They are the most effective type of content to put on a website to get more sales.
-  The testimonials have been specifically designed to show the good side of the academy by saying positive things about the tennis place, lessons and coaches. Excellent comments from the current or previous customers will reassure people browsing the website that this is a great place to learn tennis skills. 
 <!-- ![Tennis Programmes](media/tennis-programmes.png) -->
 
 - __Contact Details__
-  - Contact details section - here users can find information about the location, opening hours, email address and phone number. Contact details are easily to find; they are well structured and have a background color to underline the importance of the section. 
+  - Contact Information Section - here users can find information about location, opening hours,e-mail
+     address and telephone number. Contact details are easy to find; they are well structured and have a background colour to emphasize the importance of the section.
+
 
 - __The Footer__
-  - The footer section includes links to social media sites for White Lines. The links open in a new tab for easy 
-    navigation. Social media integration gives users more ways to engage and interact with the academy. 
-    They also create more opportunities to promote academy's service and build a bigger customer base.
-    This is valuable for the user as they can get up-to-date information about academy activities, special events or various aticles about tennis.  
-  - The footer also includes links to tennis grandslams. It allows tennis enthusists to follow the best and 
-    improve their motivation.
-    The same as the header, the footer remains the same whichever webpage a visitor navigates to.
-    This intuitive layout contributes to the users experience. 
+  - The footer area contains links to White Lines' social media sites. Links are opened in a new tab to make
+    it easier to navigate. Social media integration gives users more ways to engage and interact with the academy. 
+    They also create more opportunities to promote the service of the academy and build a larger customer base.
+    Social media links are valuable for the user because they can obtain up-to-date information on academy activities, special events or various tennis practices.
+  - Footer also includes links to major tennis slams. It allows tennis enthusiasts to follow the world's top
+    tennis players and enhance their motivation.
+    The same as the header, the footer remains the same regardless of the webpage a visitor browses. 
+    This intuitive layout contributes to the users experience.
+
 
 <!-- ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png) --> 
 
 
 - __Gallery__
-    The gallery provides the user with supporting images to see what the live in academy looks like. The aim of this section is to draw the visitors attention and enhance the website’s user experience. This section is valuable to the users as they can identify what tennis experience they can get and learn about the tennis place and its atmosphere.  
+
+    The gallery provides the user with supportive images of what life in the academy looks like. This section is designed to capture the attention of visitors and improve the user experience of the website. This section is valuable to users because they can identify the tennis experience they can gain and learn more about the tennis venue and its atmosphere.
+    
     
 <!-- ![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png) -->
 
 - __The Sign Up Page__
 
-  - This page will allow the user to get signed up to White Lines to start their tennis journey. The user will be able to create a White Lines Tennis academy account and specify what programme they are intrested in. The user will also be asked to submit their full name, email address and date of birth. 
+- This page will allow the user to get signed up to White Lines to begin their tennis journey.The user will 
+  be able to create a White Lines Tennis academy account and specify the programme in which they are interested. The user will also be prompted to submit their full name, e-mail address and date of birth.
 
 <!-- ![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png) -->
 
@@ -112,13 +121,12 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Features Left to Implement
 
+  - Create additional pages for each program in order to provide the visitors with additional information, 
+    i.e. what the program consists of, the description of extra activities, schedules and prices.
+    When the user clicks on 'Learn More' button in the programme block they will be taken to the specific page.
 
-- Create additional pages for each programme to provide visitors with extra information i.e. what the programme 
-  includes, description of extra activities, timetables and prices.
-  When the user click on 'Learn More' button in the programme block they will be taken to the specific page. 
-
-- Another feature idea is to create a page with news about the academy that will be regularly updated with special
-  events, activites, students' achievments and other interesting ideas. 
+  - Another idea is to create an academy news page that will be updated regularly with special events,
+    activities, student achievements and other interesting ideas.
 
 ## Testing 
 
@@ -252,7 +260,7 @@ Photo by RODNAE Productions
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
 
-## Other General Project Advice
+<!-- ## Other General Project Advice
 
 Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
 
@@ -267,7 +275,10 @@ Below you will find a couple of extra tips that may be helpful when completing y
   - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
   - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
 
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process!  -->
 
-[def]: media/deploy-1.png
-[def2]: media/deploy-2.png
+
+
+<!-- <p align="center" width="100%">
+     <img width="60%" src="media/about-academy1.png">
+    </p> -->
