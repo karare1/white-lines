@@ -87,12 +87,12 @@ There are three webpages on the White Lines website:
 
 
 - __The Footer__
-  - The footer area contains links to White Lines' social media sites. Links are opened in a new tab to make
-    it easier to navigate. Social media integration gives users more ways to engage and interact with the academy. 
+  - The footer area contains links to White Lines' social media sites. Links are opened in a new tab to
+    make it easier to navigate. Social media integration gives users more ways to engage and interact with the academy. 
     They also create more opportunities to promote the service of the academy and build a larger customer base.
     Social media links are valuable for the user because they can obtain up-to-date information on academy activities, special events or various tennis practices.
-  - Footer also includes links to major tennis slams. It allows tennis enthusiasts to follow the world's top
-    tennis players and enhance their motivation.
+  - Footer also includes links to major tennis slams. It allows tennis enthusiasts to follow the world's
+    top tennis players and enhance their motivation.
     The same as the header, the footer remains the same regardless of the webpage a visitor browses. 
     This intuitive layout contributes to the users experience.
 
@@ -150,11 +150,12 @@ If this section grows too long, you may want to split it off into a separate fil
   <br>
   ![Lighthouse report](media/lighthouse1.png)
 
-
+Other testing was done with Chrome DevTools, making sure responsiveness works correctly across devices. 
+After deployment, I have tested the site's link putting emphasis on the home page, particulary on nav bar in header and the if the video loads correctly. I have tested the live link on Huawei P30, Samsung A50 to test smaller screens sizes and also on small display laptop - HP ProBook 430. Each of the pages worked well but there is room for improvement when it comes to responsiveness and positioning of elements on the site.
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+<!-- You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.  -->
 
 ## Deployment
 
@@ -209,6 +210,18 @@ Deployment To GitHub Pages:
 
   <br>
 The live link can be found here: https://karare1.github.io/white-lines/
+
+
+## Technologies Used 
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+
+Also made use of:
+- [Font Awesome](https://fontawesome.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [HTML Validator](https://validator.w3.org/)
+- [CSS Validator](https://jigsaw.w3.org/css-validator/)
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/open/)
 
 
 ## Credits 
