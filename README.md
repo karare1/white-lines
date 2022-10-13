@@ -232,46 +232,117 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- The text for the Home page was taken from:
+  <br>
+  https://vilastennisacademy.com/2022/vilas-tennis-academy-academia-de-tenis-en-mallorca/
+  <br>
+  https://www.lta.org.uk/play/parents-area/youth-programme/
+  <br>
+  https://www.downthelinetennis.co.uk/testimonials-down-the-line-tennis-academy
+  <br>
+  https://www.helenricetennis.com.au/
+
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- Grandslam pictures: 
+  <br>
+  Australian Open, Roland Garros and Wimbledon pictures were taken from Wikipedia.
+  <br>
+  US open picture: 
+  <br>
+  https://www.google.com/url?sa=i&url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcS4hwD1lwf3fYFSyZU9IDJSRd8JOKlkpOEIyesDMqHKvmbFvKRb&psig=AOvVaw0jLHDk55VwAtAsXAEVLB2_&ust=1665698857999000&source=images&cd=vfe&ved=0CAkQjhxqFwoTCNCyr_fZ2_oCFQAAAAAdAAAAABAD
+
 
 ### Media
 
+Logo1 and Logo2 created on: 
+ https://smashinglogo.com/en/
+
+video:
+<br> 
+Video by VReel.co Stock Drone Video Platform from Pixabay: https://pixabay.com/videos/tennis-court-tennis-sports-overhead-35265/
+
+- The photos used on the home and sign up page:
+img1.png
+Photo by Cristina Anne Costello on Unsplash https://unsplash.com/photos/POMeFvO3CwE
+<br>
+img2.png
+Image by Clker-Free-Vector-Images from Pixabay 
+https://pixabay.com/vectors/tennis-racket-game-sports-net-304408/
+(color changed using an image editor)
+<br>
+img3.png
+Photo by RODNAE Productions: https://www.pexels.com/photo/boy-wearing-sportswear-standing-by-the-tennis-net-8223947/
+<br>
+img4.png 
+<br>
+Photo by RODNAE Productions: https://www.pexels.com/photo/girl-playing-tennis-8224723/)
+<br>
+img5.png
+<br>
+Photo by RODNAE Productions: https://www.pexels.com/photo/girl-wearing-sportswear-standing-by-the-tennis-net-8224498/
+<br>
+img6.png
+Photo by Braden Egli on Unsplash https://unsplash.com/photos/l3sIOhf9R3U
+<br>
+img7.png
+Photo by Lukáš Dlutko: https://www.pexels.com/photo/woman-playing-tennis-on-court-2440324/
+<br>
+img8.png
+Photo by cottonbro: https://www.pexels.com/photo/tennis-player-holding-a-racket-10340627/
+<br>
+img9.png
+background image: 
+Photo by form PxHere
+https://pxhere.com/en/photo/1189774
+
+-The images used for the gallery page:
+tennis-gallery-1.png 
+Photo by Julian Schiemann on Unsplash https://unsplash.com/photos/Z4Sxy1_3wdY
+<br>
+tennis-gallery-2.png
+Photo by Braden Egli on Unsplash https://unsplash.com/photos/k_H7OSg_fUs
+<br>
+tennis-gallery-3.png 
+Photo by Richard Sagredo on Unsplash https://unsplash.com/photos/oDlLU_1hZwM
+<br>
+tennis-gallery-4.png
+Photo by Guzmán Barquín on Unsplash https://unsplash.com/photos/GQmYqY2ySLg
+<br>
 tennis-gallery-5.png 
-<br>
-https://images.unsplash.com/photo-1573294184805-e3044b161ace?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80
-<br>
 Photo by 傅甬 华: https://unsplash.com/photos/q9iVyHxn230
-
-img52.png
 <br>
-https://www.pexels.com/photo/girl-wearing-sportswear-standing-by-the-tennis-net-8224498/
+tennis-gallery-6.png 
+Photo by RODNAE Productions: https://www.pexels.com/photo/girl-playing-tennis-8224672/
 <br>
-Photo by RODNAE Productions
-
-img53.png 
+tennis-gallery-7.png
+Photo by RODNAE Productions: https://www.pexels.com/photo/boy-playing-tennis-8224717/
 <br>
-https://www.pexels.com/photo/girl-playing-tennis-8224723/)
+tennis-gallery-8.png
+Photo by RODNAE Productions: https://www.pexels.com/photo/girl-playing-tennis-8224683/
 <br>
-Photo by RODNAE Productions
+tennis-gallery-9.png 
+Photo by RODNAE Productions: https://www.pexels.com/photo/girl-playing-tennis-8224424/
+
+tennis-gallery-10.png 
+Photo by Mo Saeed: https://www.pexels.com/photo/sporty-female-playing-tennis-on-court-5409085/
+<br>
+tennis-gallery-11.png
+Photo by Anna Shvets: https://www.pexels.com/photo/focused-tennis-player-hitting-ball-5067824/
+<br>
+tennis-gallery-12.png 
+Photo by Dre Dawkcide: https://www.pexels.com/photo/a-woman-in-black-top-and-white-skirt-playing-tennis-8652578/
+
+Logo1 and Logo2 created on: 
+ https://smashinglogo.com/en/
 
 
 
 
-
-[Picture1](https://images.unsplash.com/photo-1573294184805-e3044b161ace?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80)
-
-
-
-[https://images.unsplash.com/photo-1573294184805-e3044b161ace?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80
-
-
-- The photos used on the home and sign up page are from This Open Source site
+<!-- - The photos used on the home and sign up page are from This Open Source site
 - The images used for the gallery page were taken from this other open source site
+ -->
 
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
+<!-- Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!  -->
 
 <!-- ## Other General Project Advice
 
