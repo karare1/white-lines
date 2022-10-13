@@ -1,434 +1,432 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap');
 
 
-*{
-    margin:0;
-    padding:0;
-}
+ * {
+    margin: 0;
+    padding: 0;
+ }
 
-body{
-    width:100%;
+ body {
+    width: 100%;
     font-family: "Lato","sans-serif";
-}
+    }
+/*------------------------------------------------------------ Header */
 
-/*-------------------------------------------------------- Header*/
 
-header{
+ header { 
     overflow: hidden;
-    
-}
+ }
 
-#logo{
+ #logo {
     margin-top: 5px;
-    padding-bottom: 5px;
+    margin-bottom: 5px;
     float: left;
-}
+ }
 
-#ul-bar{
+/*---------------------Nav-Bar */
+
+
+ #ul-bar {
     float: right;
     margin-top: 2%;
-}
-#ul-bar li a:hover{
+ }
+
+ #ul-bar li a:hover {
     text-decoration: underline;
     font-size: 1.2rem;
     color: #299986;
-}
+ }
 
-#ul-bar li{
+ #ul-bar li {
     display: inline-block;
     line-height: 5%;
     font-size: 1.1rem;
-}
+ }
 
-#ul-bar li a{
+ #ul-bar li a {
     text-decoration: none;
     color: rgb(67, 107, 109);
     padding-right: 2rem;
-}
+ }
 
 /*------------------------------------------------------------ Home Page */
 
-#welcome{
-    position:relative;
-}
-  
-#video-h1{
-    font-family: "Oswald","sans-serif";
-    color:rgb(255, 255, 255);
-    text-transform:none;
-    position:absolute;
-    text-align: center;
-    top: 5%;
-    width: 100%;
-    left: 0px;
-}
-#video-h2{
-    font-family: "Oswald","sans-serif";
-    color:rgb(255, 255, 255);
-    text-transform:none;
-    position:absolute;
-    text-align: center;
-    bottom: 30%;
-    width: 100%;
-    left: 0px;
-}
+/*--------------------- Welcome section */
 
-#video-text h1{
-    font-size: 3.5vw;
-    padding-bottom: 3%;
-    font-weight: 400;
-    margin-top: 6%;
+ #welcome {
+    position: relative;
+ }
+
+ video {
+    width: 100%;
+    object-fit: fill;
   }
 
-#video-text h2{
-    font-weight: 400;
-    font-size: 2.0rem;
+ #video-div1 {
+    position:absolute;
+    width: 100%;
+    text-align: center;
+    top: 11%;  
+ }
+
+ #video-div2 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 30%;
+ }
+
+ #video-div1 h1 {
     font-family: "Oswald","sans-serif";
+    color: rgb(255, 255, 255);
+    font-size: 3.5vw;
+    font-weight: 400;
+  }
+
+
+ #video-div2 h2 {
+    font-weight: 400;
+    font-size: 2.0vw;
+    font-family: "Oswald","sans-serif";
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     letter-spacing: 0.3rem;
   }
 
-video{
-    width:100%;
-    object-fit: fill;
-  }
+/*--------------------- About Academy */
 
-  
-#about-academy{
-    width:100%;
+ #about-academy {
+    width: 100%;
     display: flex;
     margin-top: 2%;
-    margin-bottom:1.5%;
-}
+    margin-bottom: 1.5%;
+ }
 
-#div-classes-1{
-    width:42%;
+ #div-academy-1 {
+    width: 42%;
     text-align: center;
-    padding:3%;
-}
+    padding: 3%;
+ }
 
-#div-classes-1 img{
+ #div-academy-1 img {
     border-radius: 10%;
-}
+ }
 
-#div-classes-2{
+ #div-academy-2 {
     width: 40%;
     text-align: justify;
-    padding:5%;
-}
+    padding: 5%;
+ }
 
-
-#div-classes-2 h2{
-    letter-spacing: 0.3rem;
-    font-weight:600;
+ #div-academy-2 h2 {
     font-family: "Oswald","sans-serif";
+    color: rgba(41, 153, 134);
+    letter-spacing: 0.3rem;
+    font-weight: 600;
     text-align: center;
-    color:rgba(41, 153, 134);
     margin-bottom: 3%;
-}
+ }
 
-.paragraph{
+ .paragraph {
     margin-bottom: 8%;
-}
-.fa-medal{
+ }
+
+ .fa-medal {
     font-size: 1.5rem;
     color: rgba(41, 153, 134);
-    padding-right: 5px;
-}
-.medal{
-    padding-right: 1%;
-}
+    margin-right: 2%;
+ }
 
-#offer-section{
-    width:100%;
-    height:100%;
-    background-color:rgba(3, 63, 38, 0.1);
+/*--------------------- Offer Section */
+
+ #offer-section {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(3, 63, 38, 0.1);
     padding-top: 3%;
     padding-bottom: 3%;
-    /* margin-top: 3%; */
-}
+ }
 
-#offer-section h2{
-    text-align: center;
+ #offer-section h2 {
     font-family: "Oswald","sans-serif";
-    letter-spacing:0.3rem;
+    text-align: center;
     color: black;
     font-size: 1.5rem;
     font-weight: 800;
-}
-#offer-div-main{
-    display:flex;
+    letter-spacing: 0.3rem;
+ }
+
+ #offer-div-main {
+    display: flex;
     margin-top: 3%;
-}
+ }
 
-#offer-div-1{
-    width:33%;
+ #offer-div-1 {
+    width: 33%;
     text-align: center;
-  }
+ }
 
-  #offer-div-1 ul{
-    display: inline-block;
-    text-align: left;
-    list-style-type: none;
-    font-size: 1.1rem;
-  }
-
-  #offer-div-1 ul li:not(:last-child){
-    margin-bottom: 20%;
-  }
-
-  #offer-div-3 ul{
-    display: inline-block;
-    text-align: left;
-    list-style-type: none;
-    font-size: 1.1rem;
-  }
-
- #offer-div-3 ul li:not(:last-child){
-    margin-bottom: 20%;
-  }
-
-#offer-div-2{
+ #offer-div-2 {
     width:34%;
     display: flex;
     margin: auto 0;
+    text-align: center; 
+  }
+
+  #offer-div-3 {
+    width: 33%;
     text-align: center;
   }
-  #offer-div-2 img{
+
+ #offer-ul-1 {
+    display: inline-block;
+    text-align: left;
+    list-style-type: none;
+    font-size: 1.1rem;
+ }
+
+ #offer-ul-1 li:not(:last-child) {
+    margin-bottom: 20%;
+ }
+
+ #offer-ul-2 {
+    display: inline-block;
+    text-align: left;
+    list-style-type: none;
+    font-size: 1.1rem;
+ }
+
+ #offer-ul-2 li:not(:last-child) {
+    margin-bottom: 20%;
+ }
+
+ #offer-div-2 img {
     width: 60%;
     box-sizing: border-box;
   }
 
-  #offer-div-3{
-    width:33%;
-    text-align: center;
-  }
-
-  .fa-trophy{
-    padding:5px;
+  .fa-trophy {
+    padding: 5px;
     color: #299986;
-}
+ }
 
-#academy-programmes{
+/*--------------------- Academy Programmes */
+
+ #academy-programmes {
     width:100%;
-}
+ }
 
-.programmes-img{
-    display: block;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
-    margin-bottom: 10%;
-}
-
-#academy-programmes-h2{
+ #academy-programmes-h2 {
+    font-family: "Oswald","sans-serif";
+    color: rgba(41, 153, 134);
     margin-top: 5%;
     margin-bottom: 1%;
     text-align: center;
-    color:rgba(41, 153, 134);
-    font-family: "Oswald","sans-serif";
     letter-spacing: 2.5px;
-}
+ }
 
-.color-programmes{
-    width:30%;
-    border-radius: 5px;
+ .color-programmes {
+    width: 30%;
+    min-height: 590px;
     display: inline-block;
-    margin-right:1.5%;
-    margin-left: 1.5%;
+    vertical-align: top;
     border: 1px solid rgba(41, 153, 134);
-    margin-top:2.5%; 
-    vertical-align:top;
-    min-height:590px;
-}
-
-.color-programmes p{
-    text-align:center;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 30px;
-    margin-bottom: 50px;  
-    font-size:1rem;
-}
-
-.color-programmes-h3{
-    text-align: center;
-    font-size: 1.2rem;
-    color:rgba(41, 153, 134);
-    font-weight: 900;
-    font-family: "Oswald","sans-serif";
-
-}
-.programmes-link{
-    padding:2% 0 2% 0;
-    text-decoration: none;
-    background-color: rgba(41, 153, 134);
-    color:black;
     border-radius: 5px;
-    font-size: 1.1rem;
+    margin: 2.5% 1.5% 0;
+ }
+
+ .programmes-img {
     display: block;
-    width:50%;
-    margin:auto;
-    margin-bottom: 10%;
+    width: 70%;
+    margin: 10% auto;
+ }
+
+ .color-programmes p {
     text-align: center;
-}
+    margin: 30px 30px 50px;
+    font-size: 1rem;
+ }
 
-#programmes-div{
-    margin-top: 3%;
-}
+ .color-programmes-h3 {
+    font-family: "Oswald","sans-serif";
+    color: rgba(41, 153, 134);
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-align: center;
+ }
 
-#programmes-link-join{
-    font-size: 1.1rem;
-    letter-spacing: 0.2vw;
+ .programmes-link {
+    display: block;
+    width: 50%;
+    padding: 2% 0 2% 0;
     text-decoration: none;
     background-color: rgba(41, 153, 134);
     color: black;
     border-radius: 5px;
-    padding:1.5% 0 1.5% 0;
+    font-size: 1.1rem;
+    margin: auto auto 10%;
+    text-align: center;
+ }
+
+ #programmes-div {
+    margin-top: 3%;
+ }
+
+ #programmes-link-join {
     display: block;
     width:30%;
+    text-decoration: none;
+    background-color: rgba(41, 153, 134);
+    color: black;
+    font-size: 1.1rem;
+    letter-spacing: 0.2vw;
+    border-radius: 5px;
+    padding: 1.5% 0 1.5% 0;
     margin:auto;
     text-align: center;
-}
+ }
 
-#testimonials{
+ #programmes-link-join:hover {
+  font-weight: bolder;
+  color: white;
+ }
+
+/*--------------------- Testimonials */
+
+ #testimonials {
     width:100%;
     height: auto;
-}
+ }
 
-#testimonials h3{
+ #testimonials h3 {
     padding-top: 30px;
     margin-bottom: 30px;
     font-size: 1.3rem;
     text-align: center;
     font-family: "Oswald","sans-serif";
     letter-spacing: 2.5px;
-}
+ }
 
-.testimonials-p{
-    width: 40%;
-    margin-left: 3.2%;
-    margin-right: 3.2%;
-    text-align: justify;
-    padding:1.5%;
-    border: 2px solid rgba(41, 153, 134);
-    display: inline-block;
-    margin-bottom: 1%;
-    margin-top:1%;
-    border-radius: 5px;
-    vertical-align:top;
-    min-height:50px;
-}
-
-#testimonials-span{
+ #testimonials-span {
     color: rgba(41, 153, 134);
     font-size: 1.4rem;
-}
+ }
 
-#contact-div{
+ .testimonials-p {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    text-align: justify;
+    border: 2px solid rgba(41, 153, 134);
+    border-radius: 5px;
+    padding: 1.5%;
+    margin: 1% 3.2%;
+ }
+
+/*--------------------- Contact details */
+
+ #contact-div {
+    display: flex;
     width: 100%;
     background-color:rgba(3, 63, 38, 0.1); 
     margin-top: 1%;
-    display: flex;
     padding-bottom: 3%;
   }
 
-  #address{
-    width:33%;
+  #address {
+    width: 33%;
     text-align: center;
-    padding-top:6%;
+    padding-top: 6%;
   }
 
-  #opening-times{
-    width:34%; 
+  #opening-times {
+    width: 34%; 
     text-align: center;
-    padding-top:4%;
+    padding-top: 4%;
 }
-#hours{
-    display:flex;
+ #hours {
+    display: flex;
     justify-content: center;
-}
+ }
 
-table{
+ table {
     align-self: center;
     text-align: initial;
-}
+ }
 
- #phone-email{
-    width:33%;
+ #phone-email {
+    width: 33%;
     text-align: center;
-    padding-top:6%;
-}
+    padding-top: 6%;
+ }
 
-/* -----------------------------------------------Footer */
+/*------------------------------------------------------------ Footer */
 
- #footer{
-    width:100%;
+ #footer {
+    width: 100%;
     height: 16vh;
     clear: both;
-}
-footer #footer-links a{
+ }
+ footer #footer-links a {
     color: rgb(67, 107, 109);
     font-size: 1.5rem;
-}
+ }
 
-.link{
-    margin-right:5%;
-}
+ .link{
+    margin-right: 5%;
+ }
 
-#footer-links{
-    width:40%;
-    margin-top:0.5%;
-    float:left;
+ #footer-links {
+    width: 40%;
+    float: left;
+    margin-top: 0.5%;
     margin-left: 2%;
     text-align: left;
     
 }
-#grandslams{
-    width:40%;
-    float:right;
-    margin-top:0.5%;
+ #grandslams {
+    width: 40%;
+    float: right;
+    margin-top: 0.5%;
     text-align: right;
-}
+ }
 
-footer p{
+ footer p{
     text-align: center;
-}
+ }
 
-#logo-text-div{
+ #logo-text-div {
     text-align: center;
-}
-#footer-logo-text{
-    width:100px;
-}
+ }
+ #footer-logo-text {
+    width: 100px;
+ }
 
-.grandslam1, .grandslam2, .grandslam3, .grandslam4{ 
+ .grandslam1, .grandslam2, .grandslam3, .grandslam4{ 
     width:8%;
-}
+ }
 
-.grandslam4{
+ .grandslam4{
     margin-right: 2%;
-}
+ }
 
-/* ---------------------------------------------------Gallery Page */
+/*------------------------------------------------------------ Gallery Page */
 
-#gallery{
-    clear:both;
-    line-height:0;
+ #gallery {
+    clear: both;
+    line-height: 0;
     column-count: 3;
-    column-gap: 0px;
+    column-gap: 0;
     background-color: #cccccc;
 
 }
-#gallery img{
-    width:100%;
-}
+ #gallery img {
+    width: 100%;
+ }
 
+/*------------------------------------------------------------ Sign Up Page */
 
-/* ------------------------------------------------------Sign Up Page */
-
-#form-general{
+ #form-general {
     background-image: url('../images/img9.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -438,19 +436,19 @@ footer p{
     position: relative;
   }
 
-#sign-up-form{
-    margin-top: 3%;
+ #sign-up-form {
     width: 35%;
     height: auto;
     position: absolute;
     right: 5%;
     border-radius: 3%;
     background-color:rgba(195, 228, 236, 0.5);
+    margin-top: 3%;
     padding:5%;
     overflow: hidden;
   }
 
-.data{
+ .data {
     width: 97%;
     border: solid double #f2eded;
     height: 2.2rem;
@@ -458,346 +456,378 @@ footer p{
     display: block;
     margin-bottom: 2%;
     padding-left: 2%;
-  }
+ }
 
-  .red{
+ #birthday {
+    width: 97%;
+    display: block;
+    border: solid double #f3ecec;
+    height: 2.2rem;
+    background: transparent;
+    margin-bottom: 2%;
+    padding-left: 2%;
+ }
+
+ .asterisk {
     color: red;
-  }
+ }
 
-#newsletter{
-    margin-top:5%;
-    width:100%;
-}
-#newsletter-span{
- text-align: justify;
+ #newsletter {
+    width: 100%;
+    margin-top: 5%;
+ }
+
+ #newsletter-span {
+  text-align: justify;
+  padding-left: 2%;
+ }
  
-}
-
-#terms{
+ #terms {
     font-size: 0.8rem;
     margin-top: 6%;
-    width:100%;
-}
-#terms a{
+    width: 100%;
+ }
+ #terms a {
     color: red;
-}
+ }
 
-#finish{
-    margin-top: 5%;
+ #finish {
     width: 100%;
     height: 3rem;
+    margin-top: 5%;
     background-color: rgba(41, 153, 134);
     font-size: 1.2rem;
     color:rgb(255, 255, 255);
     border: 2px solid white;
     border-radius: 5px;
-}
-.finish:hover{
-    font-size:1.3rem;
-}
+ }
 
-#birthday{
-    width: 97%;
-    border: solid double #f3ecec;
-    height: 2.2rem;
-    background: transparent;
-    display: block;
-    margin-bottom: 2%;
-   padding-left: 2%;
-}
-.form-space{
+ .finish:hover {
+    font-size: 1.3rem;
+ }
+
+ .form-space {
    margin-top: 3%;
    margin-bottom: 3%;
-}
+ }
 
-#classes{
+ #classes {
     width: 100%;
-    border: 2px solid black;
     height: 2.2rem; 
-}
+    border: 2px solid black;
+ }
 
-#newsletter span{
-    padding-left: 2%;
-}
-#form-final{
+ #form-final {
     text-align: center;
-}
-#log-in{
+ }
+
+ #log-in {
     font-size: 1.2rem;
-    color:rgba(41, 153, 134);
+    color: rgba(41, 153, 134);
     font-weight: bolder;
-}
-#log-in-div{
+ }
+
+ #log-in-div {
     text-align: center;
-}
+ }
 
-/* __________________________________________________________________media queries */
 
+/* _____________________________________________________________media queries */
+
+/*___________________________ max 1200px */
 
 @media screen and (max-width: 1200px){
 
-    .color-programmes{
-        width:30%;
-        margin-left:1.4%;
-        margin-right:1.4%;
+    .color-programmes {
+        width: 30%;
+        margin-left: 1.4%;
+        margin-right: 1.4%;
     }
 }
 
+/*___________________________ max 943px */
+
 @media screen and (max-width: 943px){
-    #ul-bar{
+
+    #ul-bar {
         margin-bottom: 2%;
     }
     
-    #about-academy{
-        width:100%;
-    }
-    #sign-up-form{
-        margin-top:5%;
-    }
-    #div-classes-1{
-        width:50%;
-        padding-top:12%;
-        
-    }
-    #div-classes-1 img{
-        width:100%;
-    }
-    #div-classes-2{
-        width:50%;
-    }
-    #offer-section{
-        display:block;
-    }
-    #offer-div-2 img{
-        width:100%;
-        padding:0;
+    #video-div2 h2 {
+        letter-spacing: 0.2rem;
     }
 
-    #offer-div-1{
-        width:40%;
+    #about-academy {
+        width:100%;
     }
-    #offer-div-3{
-        width:40%;
+
+    #sign-up-form {
+        margin-top: 5%;
     }
-    #offer-div-2{
-        width:20%;
-        vertical-align:bottom;
+
+    #div-academy-1 {
+        width: 50%;
+        padding-top: 12%;  
+    }
+
+    #div-academy-1 img {
+        width: 100%;
+    }
+
+    #div-academy-2 {
+        width: 50%;
+    }
+
+    #offer-section {
+        display: block;
+    }
+
+    #offer-div-2 img {
+        width: 100%;
+        padding: 0;
+    }
+
+    #offer-div-1 {
+        width: 40%;
+    }
+
+    #offer-div-3 {
+        width: 40%;
+
+    }
+
+    #offer-div-2 {
+        width: 20%;
+        vertical-align: bottom;
         margin: auto 0;
     }
 
-    .offer-li{
+    .offer-li {
         font-size: 1rem;
     }
-    #academy-programmes{
-        height:initial;
+
+    #academy-programmes {
+        height: initial;
     }
     
-    .color-programmes{
-        width:46%;
+    .color-programmes{ 
+        width: 46%;
     }
 
-    .testimonials-p{
-        width:39%;
-        vertical-align:top;
+    .testimonials-p {
+        width: 39%;
+        vertical-align: top;
         min-height: 170px;
     }
-    #gallery{
+
+    #gallery {
         column-count: 2;
     }
 
-    #sign-up-form{
-        width:42%;
+    #sign-up-form {
+        width: 42%;
     }
 }
+/*___________________________ max 700px */
+
 @media screen and (max-width: 700px){
 
-    body{
-    width:100%;
-    }
-    
-    #ul-bar li a{
-    padding:0.5rem;
-    margin:0;
-    font-size:initial;
+    body {
+        width: 100%;
     }
 
-    #ul-bar li a:hover{
-        text-decoration:none;
-        font-size:initial;
+    #ul-bar {
+        margin-right: 2%;
+    }
+
+    #ul-bar li a {
+        padding: 0.5rem;
+        margin: 0;
+        font-size: initial;
+    }
+
+    #ul-bar li a:hover {
+        text-decoration: none;
+        font-size: initial;
         color: #299986;
     }
    
-    video{
-        margin-top:2%;
+    video {
+        margin-top: 2%;
     }
 
-    #video-text h1 {
-        margin-top:0;
+    #video-div1 h1 {
+        font-size: 1.2rem;
+    }
+    #video-div2 h2 {
         font-size: 1rem;
+        letter-spacing: normal;
     }
-    #video-text h2{
-        font-size: 1rem;
-        letter-spacing:normal;
+
+    #about-academy {
+        width: 100%;
+        display: block;
+        padding: 0 0 5%;
     }
-    #about-academy{
-        width:100%;
-        display:block;
-        padding: 0;
-        padding-bottom:5%;
-    }
-    #div-classes-1{
-        width:100%;
-        margin:0;
-        padding-left: 0;
-        padding-right:0;
-        padding-top: 2%;
-    }
-    
-    #div-classes-1 img{
-     width: 50%;
-    }
-    
-    #div-classes-2{
-        width:100%;
+
+    #div-academy-1 {
+        width: 100%;
         margin: 0;
-        padding:0;
+        padding-top: 2%;
+        padding-left: 0;
+        padding-right: 0;
     }
     
-    #div-classes-2 p{
-        padding-left:8%;
+    #div-academy-1 img {
+        width: 50%;
+    }
+    
+    #div-academy-2 {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #div-academy-2 p {
+        padding-left: 8%;
         padding-right: 8%;
     }
     
-    #div-classes-2 h2{
+    #div-academy-2 h2 {
         font-size: 1.2rem;
         padding-left: 8%;
         padding-right: 8%;
     }
     
-    #offer-section{
-        height:initial;
+    #offer-section {
+        height: initial;
     }
     
     #offer-section h2{
         font-size: 1.2rem;
     }
-    #offer-div-1{
-        padding-top:3%;
+    #offer-div-1 {
+        padding-top: 3%;
     }
     
-    #offer-div-3{
-        padding-bottom:10%;
+    #offer-div-3 {
+        padding-bottom: 10%;
     }
     
-    #offer-div-1, #offer-div-2, #offer-div-3{
-        width:100%;
+    #offer-div-1, #offer-div-2, #offer-div-3 {
+        width: 100%;
     }
-    #offer-div-2 img{
-        width:80%;
-        padding:15%;
-    
+
+    #offer-div-2 img {
+        width: 80%;
+        padding: 15%;
     }
+
     #offer-div-2 {
         text-align: center;
     }
-    #offer-div-main{
+
+    #offer-div-main {
         display: block;
     }
-    #offer-div-3 ul li:not(:last-child){
+
+    #offer-div-3 ul li:not(:last-child) {
         margin-bottom: 10%;
     }
-    #offer-div-1 ul li:not(:last-child){
+
+    #offer-div-1 ul li:not(:last-child) {
         margin-bottom: 10%;
     }
     
-    #academy-programmes{
-        height:initial;
-        width:auto;
+    #academy-programmes {
+        height: initial;
+        width: auto;
     }
     
-    #academy-programmes-h2{
-        width:100%;
+    #academy-programmes-h2 {
+        width: 100%;
         font-size: 1.2rem;
         letter-spacing: 0.3rem;
     }
-    .color-programmes{
-        width:90%;
+
+    .color-programmes {
+        width: 90%;
         margin-left: 4.5%;
         margin-right: 4.5%;
     }
-    #programmes-link-join{
-        width:60%;
-        margin-top:5%;
+
+    #programmes-link-join {
+        width: 60%;
+        margin-top: 5%;
     }
     
     .testimonials-p {
-     width:80%;   
-     padding-left:5%;
+     width: 80%;   
+     padding-left: 5%;
      padding-right: 5%;
-     margin-left:4%;
-     margin-right:4%;
+     margin-left: 4%;
+     margin-right: 4%;
     }
     
-    #contact-div{
-        height:initial;
+    #contact-div{ 
+        height: initial;
         overflow: hidden;
         display: block;
-        padding-bottom:5%;
-        margin-top:5%;
+        padding-bottom: 5%;
+        margin-top: 5%;
         margin-bottom: 5%;
     }
     
-    #address{
-        width:100%;
+    #address {
+        width: 100%;
     }
-    #opening-times{
-        width:100%;
+    #opening-times {
+        width: 100%;
     }
 
-    #phone-email{
-        width:100%;
+    #phone-email {
+        width: 100%;
     }
     
     footer{
-        height:100%;
+        height: 100%;
     }
-    #footer-links{
-        width:100%;
-        margin-top:3%;
-        margin-bottom: 3%;
-        display:block;
-        margin-left: auto;
-        margin-right: auto;
+    #footer-links {
+        display: block;
+        width: 100%;
+        margin: 3% auto;
         text-align: center;
     }
     
-    #grandslams{
-        width:100%;
+    #grandslams {
+        width: 100%;
         margin-bottom: 5%;
         text-align: center;
     }
      
-    header{
-        height:initial;
+    header {
+        height: initial;
         overflow: hidden;
     }
 
-    #gallery{
+    #gallery { 
         column-count: 1;
     }
 
-    #sign-up-form{
-        width:83%;
-        height:initial;
-        right:3%;
+    #sign-up-form {
+        width: 83%;
+        height: initial;
+        right: 3%;
     }
     }
 
-    @media screen and (min-width: 1400px){
+    /*___________________________ min 1400px */
 
-        #form-general{
-            height:1100px;
+    @media screen and (min-width: 1400px) {
+
+        #form-general {
+            height: 1100px;
         }
-        }
+    }
     
     
