@@ -827,6 +827,9 @@
         height: initial;
         right: 3.5%;
     }
+
+   input[type=date] {padding-top: 2px;}
+
     }
 
     /*___________________________ min 1400px */
