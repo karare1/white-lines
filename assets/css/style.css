@@ -627,8 +627,9 @@
 
     #sign-up-form {
         width: 42%;
+        margin-top: 5%;
     }
-}
+ }
 /*___________________________ max 700px */
 
 @media screen and (max-width: 700px){
