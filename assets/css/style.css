@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap');
 
-/* 
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version */
-
 
  * {
     margin: 0;
@@ -395,6 +389,7 @@
     float: right;
     margin-top: 0.5%;
     text-align: right;
+    margin-right: 2%;
  }
 
  footer p{
@@ -408,13 +403,10 @@
     width: 100px;
  }
 
- .grandslam1, .grandslam2, .grandslam3, .grandslam4{ 
-    width:8%;
+ .grandslam{ 
+    width: 8%;
  }
 
- .grandslam4{
-    margin-right: 2%;
- }
 
 /*------------------------------------------------------------ Gallery Page */
 
@@ -423,8 +415,8 @@
     line-height: 0;
     column-count: 3;
     column-gap: 0;
-    /* background-color: #cccccc; */
-    background-color:rgba(3, 63, 38, 0.1); 
+    background-color: #cccccc;
+    /* background-color:rgba(3, 63, 38, 0.1);  */
 
 }
  #gallery img {
@@ -457,24 +449,12 @@
 
  .data {
     width: 97%;
-    /* border: solid double #f2eded; */
     height: 2.2rem;
     background: transparent;
     display: block;
     margin-bottom: 2%;
     padding-left: 2%;
  }
-
- /* #birthday {
-    width: 97%;
-    display: block; */
-    /* border: solid double #f3ecec; */
-    /* border: 2px solid black;
-    height: 2.2rem;
-    background: transparent;
-    margin-bottom: 2%;
-    padding-left: 2%;
- } */
 
  .asterisk {
     color: red;
@@ -811,6 +791,7 @@
     #grandslams {
         width: 100%;
         margin-bottom: 5%;
+        margin-right: 0;
         text-align: center;
     }
      
