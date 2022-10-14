@@ -6,7 +6,7 @@ It hopes to engage parents to enroll their children in tennis lessons as well as
 
 This website will be helpful to aspiring tennis players in order to find out all the information on the academy: what the White Lines has to offer, what its culture is like, what tennis programmes are offered, and why they should sign up.
 
-<!-- ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png) -->
+![Responsive Design](media/responsive.png)
 
 ## Features 
 
@@ -23,7 +23,7 @@ There are three webpages on the White Lines website:
 ### Existing Features
 
 - __Header__
-    White Lines Academy's logo and navigation bar are featured in the header.
+  - White Lines Academy's logo and navigation bar are featured in the header.
   - A logo links a user to the home page when clicked.
   - Navigation bar includes links to Home page, Gallery and Sign Up page. It is identical, positioned 
     at the top of each page, for easy navigation. 
@@ -56,7 +56,7 @@ There are three webpages on the White Lines website:
     </p>
 
 - __Offer section__
-  - The offer section is an important part of the site. It shows what White Lines provide to tennis buffs and what makes them better than their competitors.It is a selling part of the website and its goal is to convince prospective clients to register for courses by presenting the academy as a professional venue that has much to offer.
+  - The offer section is an important part of the site. It shows what White Lines provide to tennis buffs and what makes them better than their competitors. It is a selling part of the website and its goal is to convince prospective clients to register for courses by presenting the academy as a professional venue that has much to offer.
   <br><br>
     <p align="center">
       <img src="media/offer-section.png">
@@ -86,7 +86,7 @@ There are three webpages on the White Lines website:
     <br>
 
 - __Contact Details__
-  - Contact Information Section - here users can find information about location, opening hours,e-mail
+  - Contact Information Section - here users can find information about location, opening hours, e-mail
      address and telephone number. Contact details are easy to find; they are well structured and have a background colour to emphasize the importance of the section.
     <br><br>
     <p align="center">
@@ -101,7 +101,7 @@ There are three webpages on the White Lines website:
     Social media links are valuable for the user because they can obtain up-to-date information on academy activities, special events or various tennis practices.
   - Footer also includes links to major tennis slams. It allows tennis enthusiasts to follow the world's
     top tennis players and enhance their motivation.
-    The same as the header, the footer remains the same regardless of the webpage a visitor browses. 
+    Similarly to the header, the footer remains the same regardless of the webpage a visitor browses. 
     This intuitive layout contributes to the users experience.
     <br><br>
     <p align="center">
@@ -110,21 +110,17 @@ There are three webpages on the White Lines website:
     <br>
 
 - __Gallery__
-    - The gallery provides the user with supportive images of what life in the academy looks like. This section is designed to capture the attention of visitors and improve the user experience of the website. This section is valuable to users because they can identify the tennis experience they can gain and learn more about the tennis venue and its atmosphere.
-    <br><br>
+    - The gallery provides the user with supportive images of what life in the academy looks like. This section is
+      designed to capture the attention of visitors and improve the user experience of the website. This section is valuable to users because they can identify the tennis experience they can gain and learn more about the tennis venue and its atmosphere.
+    <br><br>/
     <p align="center">
       <img src="media/gallery.png">
     </p>
     <br>
 
 - __The Sign Up Page__
-
-  - This page will allow the user to get signed up to White Lines to begin their tennis journey.The user will 
-- This page will allow the user to get signed up to White Lines to begin their tennis journey.The user will 
-  - This page will allow the user to get signed up to White Lines to begin their tennis journey.The user will 
-- This page will allow the user to get signed up to White Lines to begin their tennis journey.The user will 
-  - This page will allow the user to get signed up to White Lines to begin their tennis journey.The user will 
-  be able to create a White Lines Tennis academy account and specify the programme in which they are interested. The user will also be prompted to submit their full name, e-mail address and date of birth.
+  - This page will allow the user to get signed up to White Lines to begin their tennis journey. The user will 
+    be able to create a White Lines Tennis academy account and specify the programme in which they are interested. The user will also be prompted to submit their full name, e-mail address and phone number.
     <br><br>
     <p align="center">
       <img src="media/form.png">
@@ -175,8 +171,13 @@ If this section grows too long, you may want to split it off into a separate fil
   <br>
   ![Lighthouse report](media/lighthouse1.png)
 
-Other testing was done with Chrome DevTools, making sure responsiveness works correctly across devices. 
-After deployment, I have tested the site's link putting emphasis on the home page, particulary on nav bar in header and the if the video loads correctly. I have tested the live link on Huawei P30, Samsung A50 to test smaller screens sizes and also on small display laptop - HP ProBook 430. Each of the pages worked well but there is room for improvement when it comes to responsiveness and positioning of elements on the site.
+- Further testing has been done with Chrome DevTools, making sure that responsiveness works correctly on all devices. 
+ After the deployment, I tested the site link focusing on the homepage, especially on the navigation bar in the header and whether the video in the homepage loads properly. 
+ I also checked the form on the registration page to ensure that the validation is working properly and that no issues were detected.
+
+- The website was assessed in various browsers: Mozilla Firefox, Google Chrome and Microsoft Edge.
+  Live link was tested on Huawei P30, Samsung A50 to test smaller screen sizes, on a small display laptop - HP ProBook 430 and also on a larger display laptop - Dell Latitute 5580. 
+  Each of the pages functioned well, but there is still room for improvement in terms of responsiveness and positioning of the elements on the website.
 
 ### Unfixed Bugs
 
@@ -184,9 +185,7 @@ After deployment, I have tested the site's link putting emphasis on the home pag
 
 ## Deployment
 
-Deployment To GitHub Pages:
-
-  <br>
+Deployment To GitHub Pages:  <br>
 
 1. Create a repository in GitHub <br><br>
   ![Deploy-1](media/deploy-1.png) <br>
@@ -199,18 +198,18 @@ Deployment To GitHub Pages:
    then 'Your repositories' <br><br>
    ![Deploy-2](media/deploy-2.png) &nbsp; &nbsp; &nbsp; &nbsp; ![Deploy-3](media/deploy-3.png) <br>
 
-5. In the repository, under the repository name (e.g. karare1/white-lines), click Settings.  <br><br>
+5. In the repository, under the repository name (e.g. karare1/white-lines), click Settings  <br><br>
   ![Deploy-4](media/deploy-4.png) <br>
 
-6. In the "Code and automation" section of the left sidebar, click on Pages.  <br><br>
+6. In the "Code and automation" section on the left sidebar, click on Pages  <br><br>
   ![Deploy-5](media/deploy-5.PNG) <br>
 
 7. From the source section drop-down menu, select 'Deploy from a Branch'  <br>
-   From the branch section drop-down menu, select 'main' and 'root' and then click on Save button.  <br><br>
+   From the branch section drop-down menu, select 'main' and 'root' and then click on Save button  <br><br>
   ![Deploy-6](media/deploy-6.PNG)  <br>
 
 8. The link to the site will be automatically created. <br>
-   To see the published site, under "GitHub Pages", click the site's URL.  <br><br>
+   To see the published site, under "GitHub Pages", click the site's URL  <br><br>
   ![Deploy-7](media/deploy-7.PNG) <br>
 
    The live link can be found here: https://karare1.github.io/white-lines/ <br>
@@ -235,10 +234,10 @@ Also made use of:
 ### Content 
 
 - The text for the Home page was taken from:  <br>
-  [Tennis website 1](https://vilastennisacademy.com/2022/vilas-tennis-academy-academia-de-tenis-en-mallorca/)  <br>
-  [Tennis website 2](https://www.lta.org.uk/play/parents-area/youth-programme/)  <br>
-  [Tennis website 3](https://www.downthelinetennis.co.uk/testimonials-down-the-line-tennis-academy)  <br>
-  [Tennis website 4](https://www.helenricetennis.com.au/)
+  [www.vilastennisacademy.com/](https://vilastennisacademy.com/2022/vilas-tennis-academy-academia-de-tenis-en-mallorca/  <br>
+  [www.lta.org.uk](https://www.lta.org.uk/play/parents-area/youth-programme/)  <br>
+  [www.downthelinetennis.co.uk](https://www.downthelinetennis.co.uk/testimonials-down-the-line-tennis-academy)  <br>
+  [www.helenricetennis.com.au](https://www.helenricetennis.com.au/)
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 - Grandslam pictures: <br>
@@ -249,7 +248,7 @@ Also made use of:
 
 ### Media
 
-- Logo1 and Logo2 created on:  [Logo Creator](https://smashinglogo.com/en/)
+- Logo1 and Logo2 created on:  [www.smashinglogo.com](https://smashinglogo.com/en/)
 
 - Video used on the Home Page: [Video](https://pixabay.com/videos/tennis-court-tennis-sports-overhead-35265/) <br>
   Video by VReel.co Stock Drone Video Platform from Pixabay 
