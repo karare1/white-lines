@@ -464,16 +464,16 @@
     padding-left: 2%;
  }
 
- #birthday {
+ /* #birthday {
     width: 97%;
-    display: block;
+    display: block; */
     /* border: solid double #f3ecec; */
-    border: 2px solid black;
+    /* border: 2px solid black;
     height: 2.2rem;
     background: transparent;
     margin-bottom: 2%;
     padding-left: 2%;
- }
+ } */
 
  .asterisk {
     color: red;
@@ -828,7 +828,6 @@
         right: 3.5%;
     }
 
-   input[type=date] {padding-top: 2px;}
 
     }
 
