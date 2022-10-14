@@ -423,7 +423,8 @@
     line-height: 0;
     column-count: 3;
     column-gap: 0;
-    background-color: #cccccc;
+    /* background-color: #cccccc; */
+    background-color:rgba(3, 63, 38, 0.1); 
 
 }
  #gallery img {
