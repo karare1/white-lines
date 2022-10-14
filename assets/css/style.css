@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap');
 
+/* 
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version */
+
 
  * {
     margin: 0;
@@ -624,7 +630,7 @@
     #gallery {
         column-count: 2;
     }
-
+    
     #sign-up-form {
         width: 42%;
         margin-top: 5%;
