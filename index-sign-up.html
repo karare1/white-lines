@@ -26,7 +26,7 @@
         </header>
 
         <section id="form-general">
-            <form id="sign-up-form" method="post" action="#">
+            <form id="sign-up-form" method="POST" action="#">
             
                 <h2>Create your account</h2>
                 <p class="form-space">Enter your information to help us tailor your classes</p>
@@ -38,16 +38,13 @@
                 <input class="data" id="password" name="password" type="password" placeholder="At least 8 characters" aria-label="At least 8 characters" minlength="8" required>
                 
                 <label for="phone">Phone number</label>
-                <input class="data" id="phone" name="phone-number" type="tel" placeholder="e.g. 0123456789" aria-label="e.g. 0123456789" pattern="[0-9]{11}">
+                <input class="data" id="phone" name="phone-number" type="tel" placeholder="e.g. 01234567891" aria-label="e.g. 01234567891" pattern="[0-9]{11}">
            
                 <label for="first-name">First Name<span class="asterisk"> *</span></label>
-                <input class="data" id="first-name" name="first-name" type="text" placeholder="eg. Mary or Michael" aria-label="eg. Mary or Michael" required>
+                <input class="data" id="first-name" name="first-name" type="text" placeholder="e.g. Mary or Michael" aria-label="eg. Mary or Michael" required>
             
                 <label for="last-name">Last Name<span class="asterisk"> *</span></label>
-                <input class="data" id="last-name" name="last-name" type="text" placeholder="eg. Smith" aria-label="eg. Smith" required>
-
-                <!-- <label for="birthday">Date of birth<span class="asterisk"> *</span></label>
-                <input id="birthday" name="date of birth" type="date" aria-label="DD/MM/YYYY" min="1900-09-01" required> -->
+                <input class="data" id="last-name" name="last-name" type="text" placeholder="e.g. Smith" aria-label="eg. Smith" required>
             
             
                 <label for="classes">Select a class</label>
@@ -94,10 +91,10 @@
                 </div>
     
                 <div id="grandslams">           
-                    <a class="link" href="https://ausopen.com/" aria-label="Link to Australian Open website" target="_blank"><img class="grandslam1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Australian_Open_Logo_2017.svg/800px-Australian_Open_Logo_2017.svg.png" alt="Australian Open Logo"></a>
-                    <a class="link" href="https://www.rolandgarros.com/en-us/" aria-label="Link to French Open website" target="_blank"><img class="grandslam2" src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Logo_Roland-Garros.svg/1200px-Logo_Roland-Garros.svg.png" alt="French Open Logo"></a>
-                    <a class="link" href="https://www.wimbledon.com/" aria-label="Link to Wimbledon website" target="_blank"><img class="grandslam3" src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Wimbledon.svg/1200px-Wimbledon.svg.png" alt="Wimbledon Logo"></a>
-                    <a href="https://www.usopen.org/index.html" aria-label="Link to US Open website" target="_blank"><img class="grandslam4" src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4hwD1lwf3fYFSyZU9IDJSRd8JOKlkpOEIyesDMqHKvmbFvKRb" alt="US Open Logo"></a>        
+                    <a class="link" href="https://ausopen.com/" aria-label="Link to Australian Open website" target="_blank"><img class="grandslam" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Australian_Open_Logo_2017.svg/800px-Australian_Open_Logo_2017.svg.png" alt="Australian Open Logo"></a>
+                    <a class="link" href="https://www.rolandgarros.com/en-us/" aria-label="Link to French Open website" target="_blank"><img class="grandslam" src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Logo_Roland-Garros.svg/1200px-Logo_Roland-Garros.svg.png" alt="French Open Logo"></a>
+                    <a class="link" href="https://www.wimbledon.com/" aria-label="Link to Wimbledon website" target="_blank"><img class="grandslam" src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Wimbledon.svg/1200px-Wimbledon.svg.png" alt="Wimbledon Logo"></a>
+                    <a href="https://www.usopen.org/index.html" aria-label="Link to US Open website" target="_blank"><img class="grandslam" src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4hwD1lwf3fYFSyZU9IDJSRd8JOKlkpOEIyesDMqHKvmbFvKRb" alt="US Open Logo"></a>        
                 </div>
             </div>
 
