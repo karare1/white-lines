@@ -113,7 +113,7 @@ There are three webpages on the White Lines website:
 - __Gallery__
     - The gallery provides the user with supportive images of what life in the academy looks like. This section is
       designed to capture the attention of visitors and improve the user experience of the website. This section is valuable to users because they can identify the tennis experience they can gain and learn more about the tennis venue and its atmosphere.
-    <br><br>/
+    <br><br>
     <p align="center">
       <img src="media/gallery.png">
     </p>
