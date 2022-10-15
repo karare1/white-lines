@@ -58,11 +58,11 @@ There are three webpages on the White Lines website:
 - __Offer section__
   - The offer section is an important part of the site. It shows what White Lines provide to tennis buffs and what 
     makes them better than their competitors. It is a selling part of the website and its goal is to convince prospective clients to register for courses by presenting the academy as a professional venue that has much to offer.
-  <br><br>
+    <br><br>
     <p align="center">
       <img src="media/offer-section.png">
     </p>
-  <br>
+    <br>
 
 - __Tennis Programmes__ 
   - This section presents the tennis courses of the academy. It gives users an early sense of who are
@@ -164,15 +164,15 @@ There are three webpages on the White Lines website:
   ![Lighthouse report](media/lighthouse.png)
 
 - Further testing has been done with Chrome DevTools, making sure that responsiveness works correctly on all devices. 
- After the deployment, I tested the site link focusing on the homepage, especially on the navigation bar in the header and whether the video in the homepage loads properly. 
- I also checked the form on the registration page to ensure that the validation is working properly and that no issues were detected.
+  After the deployment, I tested the site link focusing on the homepage, especially on the navigation bar in the header and whether the video in the homepage loads properly. 
+  I also checked the form on the registration page to ensure that the validation is working properly and that no issues were detected.
 
 - The website was assessed in various browsers: Mozilla Firefox, Google Chrome and Microsoft Edge.
   Live link was tested on Huawei P30, Samsung A50 to test smaller screen sizes, on a small display laptop - HP ProBook 430 and also on a larger display laptop - Dell Latitute 5580. 
   Each of the pages functioned well, but there is still room for improvement in terms of responsiveness and positioning of the elements on the website.
 
 ### Unfixed Bugs
-
+None I am aware of. 
 
 ## Deployment
 
@@ -225,7 +225,7 @@ Also made use of:
 ### Content 
 
 - The text for the Home page was taken from:  <br>
-  [www.vilastennisacademy.com/](https://vilastennisacademy.com/2022/vilas-tennis-academy-academia-de-tenis-en-mallorca/  <br>
+  [www.vilastennisacademy.com](https://vilastennisacademy.com/2022/vilas-tennis-academy-academia-de-tenis-en-mallorca/)  <br>
   [www.lta.org.uk](https://www.lta.org.uk/play/parents-area/youth-programme/)  <br>
   [www.downthelinetennis.co.uk](https://www.downthelinetennis.co.uk/testimonials-down-the-line-tennis-academy)  <br>
   [www.helenricetennis.com.au](https://www.helenricetennis.com.au/)
