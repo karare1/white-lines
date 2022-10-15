@@ -56,7 +56,8 @@ There are three webpages on the White Lines website:
     </p>
 
 - __Offer section__
-  - The offer section is an important part of the site. It shows what White Lines provide to tennis buffs and what makes them better than their competitors. It is a selling part of the website and its goal is to convince prospective clients to register for courses by presenting the academy as a professional venue that has much to offer.
+  - The offer section is an important part of the site. It shows what White Lines provide to tennis buffs and what 
+    makes them better than their competitors. It is a selling part of the website and its goal is to convince prospective clients to register for courses by presenting the academy as a professional venue that has much to offer.
   <br><br>
     <p align="center">
       <img src="media/offer-section.png">
@@ -65,7 +66,7 @@ There are three webpages on the White Lines website:
 
 - __Tennis Programmes__ 
   - This section presents the tennis courses of the academy. It gives users an early sense of who are
-     the programmes for and what they focuse on. It provides the user with the opportunity to specify which program is most suitable for them. Each program box has a 'Learn More' button that is supposed to bring visitors to the website where they can get more specific information about that particular program.
+    the programmes for and what they focuse on. It provides the user with the opportunity to specify which program is most suitable for them. Each program box has a 'Learn More' button that is supposed to bring visitors to the website where they can get more specific information about that particular program.
   - Below the tennis programs is the JOIN US TODAY button to encourage the user to purchase a tennis
     class. This link will bring the user to the Sign Up page to register for the Academy.
     <br><br>
@@ -87,7 +88,7 @@ There are three webpages on the White Lines website:
 
 - __Contact Details__
   - Contact Information Section - here users can find information about location, opening hours, e-mail
-     address and telephone number. Contact details are easy to find; they are well structured and have a background colour to emphasize the importance of the section.
+    address and telephone number. Contact details are easy to find; they are well structured and have a background colour to emphasize the importance of the section.
     <br><br>
     <p align="center">
       <img src="media/contact.png">
@@ -151,14 +152,6 @@ There are three webpages on the White Lines website:
 
 ## Testing 
 
-<!-- In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here. -->
-
 
 ### Validator Testing 
 
@@ -167,9 +160,8 @@ If this section grows too long, you may want to split it off into a separate fil
 - CSS
   - Two syntax errors were found when passing through the official Jigsaw validator - a comma used instead of a semi-colon and font:size instead of font-size - both errors have been corrected. [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkarare1.github.io%2Fwhite-lines%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-- Lighthouse report: 
-  <br>
-  ![Lighthouse report](media/lighthouse1.png)
+- Lighthouse report: <br><br>
+  ![Lighthouse report](media/lighthouse.png)
 
 - Further testing has been done with Chrome DevTools, making sure that responsiveness works correctly on all devices. 
  After the deployment, I tested the site link focusing on the homepage, especially on the navigation bar in the header and whether the video in the homepage loads properly. 
@@ -181,7 +173,6 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Unfixed Bugs
 
-<!-- You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.  -->
 
 ## Deployment
 
